@@ -41,7 +41,9 @@ class TripadvisorScraper:
             "js_render": "true",
             "premium_proxy": "true",
             "wait_for": "h1", # Wait for the main title to ensure the page is loaded
-            "wait": "5000",
+            "wait": "10000",  # Increased wait time to 10 seconds
+            "session_id": "1",  # Use session to maintain state
+            "custom_headers": "true"  # Enable custom headers for better success rate
         }
 
         try:
@@ -56,6 +58,16 @@ class TripadvisorScraper:
                         f.write(html_content)
                     logger.info("Saved final HTML from API to debug.html")
 
+                # Log some basic info about the HTML content
+                logger.info(f"Received HTML content length: {len(html_content)} characters")
+
+                # Check if we got a valid TripAdvisor page
+                if "tripadvisor" not in html_content.lower():
+                    logger.warning("Response does not appear to be from TripAdvisor")
+
+                if "blocked" in html_content.lower() or "captcha" in html_content.lower():
+                    logger.warning("Response may be blocked or contains captcha")
+
                 price = parse_tripadvisor_price(html_content)
 
                 if price:
@@ -63,6 +75,10 @@ class TripadvisorScraper:
                     return price
                 else:
                     logger.warning("Could not find price in the HTML. The site's layout may have changed.")
+                    # Save the HTML for debugging if no price found
+                    with open("debug_no_price.html", "w", encoding="utf-8") as f:
+                        f.write(html_content)
+                    logger.info("Saved HTML content to debug_no_price.html for analysis")
                     return None
 
         except httpx.TimeoutException:

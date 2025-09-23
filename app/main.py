@@ -51,12 +51,24 @@ async def scrape_price_endpoint(request: ScrapeRequest):
     """
     logging.info(f"Received scraping request for hotel_id: {request.hotel_id}")
 
+    # Validate inputs to prevent "string" literals
+    if request.hotel_id == "string" or request.geo_id == "string":
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid hotel_id or geo_id. Please provide actual values, not 'string'."
+        )
+
+    # Basic validation for TripAdvisor IDs
+    if not request.hotel_id.startswith('d') or not request.geo_id.startswith('g'):
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid ID format. hotel_id should start with 'd' and geo_id should start with 'g'."
+        )
+
     try:
-        # **CORRECTED CALL**: Pass the arguments directly to the scraper function
-        # The scraper class itself will now be responsible for building the URL.
         scraper = TripadvisorScraper()
-        price = await run_in_threadpool(
-            scraper.scrape_price,
+        # *** THIS IS THE CORRECTED LINE ***
+        price = await scraper.scrape_price(
             geo_id=request.geo_id,
             hotel_id=request.hotel_id,
             checkin_date=request.checkin_date,
@@ -111,6 +123,7 @@ async def get_prices(hotel_name: str):
     """
     logging.info(f"Fetching prices for hotel: {hotel_name}")
     try:
+        # Using run_in_threadpool here is correct because fetch_prices is a synchronous function
         prices = await run_in_threadpool(fetch_prices, hotel_name=hotel_name)
         if not prices:
             logging.warning(f"No prices found for hotel: {hotel_name}")

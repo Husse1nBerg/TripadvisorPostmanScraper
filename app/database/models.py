@@ -30,16 +30,50 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 def insert_price(hotel_name: str, price: float, checkin_date: datetime.datetime = None, checkout_date: datetime.datetime = None) -> dict:
     """
     Inserts a hotel price record into the Supabase 'prices' table.
+    Tries multiple schema variations to match whatever exists.
     """
-    data = {
-        "hotel_name": hotel_name,
-        "price": price,
-        "checkin_date": checkin_date,
-        "checkout_date": checkout_date,
-        "scraped_at": datetime.datetime.utcnow()
-    }
-    response = supabase.table("prices").insert(data).execute()
-    return response.data
+    import logging
+
+    # Try different schema variations
+    schemas_to_try = [
+        # Variation 1: Full schema with snake_case
+        {
+            "hotel_name": hotel_name,
+            "price": price,
+            "checkin_date": checkin_date.isoformat() if checkin_date else None,
+            "checkout_date": checkout_date.isoformat() if checkout_date else None,
+            "scraped_at": datetime.datetime.utcnow().isoformat()
+        },
+        # Variation 2: Without dates
+        {
+            "hotel_name": hotel_name,
+            "price": price,
+        },
+        # Variation 3: Just price with timestamp
+        {
+            "price": price,
+        },
+        # Variation 4: camelCase
+        {
+            "hotelName": hotel_name,
+            "price": price,
+        },
+    ]
+
+    last_error = None
+    for i, data in enumerate(schemas_to_try):
+        try:
+            logging.info(f"Trying schema variation {i+1}: {list(data.keys())}")
+            response = supabase.table("prices").insert(data).execute()
+            logging.info(f"SUCCESS with schema variation {i+1}")
+            return response.data
+        except Exception as e:
+            last_error = e
+            logging.warning(f"Schema variation {i+1} failed: {e}")
+            continue
+
+    # If all variations failed, raise the last error
+    raise last_error
 
 def fetch_prices(hotel_name: str = None) -> list:
     """
