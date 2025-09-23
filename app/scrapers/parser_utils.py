@@ -2,8 +2,10 @@ import re
 from typing import Optional
 from bs4 import BeautifulSoup
 
-# The selector is owned by the parser, where it belongs.
-PRICE_SELECTOR = "[data-automation='metaPrice']"
+# --- THIS IS THE FINAL CHANGE ---
+# The selector has been updated from 'metaPrice' to 'finalPrice'
+PRICE_SELECTOR = "[data-automation='finalPrice']"
+# --------------------------------
 
 def parse_tripadvisor_price(html_content: str) -> Optional[str]:
     """
@@ -17,12 +19,16 @@ def parse_tripadvisor_price(html_content: str) -> Optional[str]:
     """
     try:
         soup = BeautifulSoup(html_content, 'html.parser')
-        price_element = soup.select_one(PRICE_SELECTOR)
+        
+        # We use select() here to find ALL matching elements, as there are multiple deals
+        price_elements = soup.select(PRICE_SELECTOR)
 
-        if not price_element:
+        if not price_elements:
             return None
 
-        price_text = price_element.get_text(strip=True)
+        # We will take the price from the first deal found
+        price_text = price_elements[0].get_text(strip=True)
+        
         # Use regex to extract only digits and a potential decimal point
         cleaned_price = re.sub(r'[^\d.]', '', price_text)
         
