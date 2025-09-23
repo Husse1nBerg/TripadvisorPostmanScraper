@@ -6,9 +6,9 @@ from datetime import date, datetime
 from typing import List, Optional
 import os
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.concurrency import run_in_threadpool
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field
 
 # --- Database and Scraper Imports ---
 try:
@@ -36,10 +36,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-scraper = TripadvisorScraper()
-
 # --- Pydantic Models for API Requests ---
-# Restored your detailed model
 class ScrapeRequest(BaseModel):
     geo_id: str = Field(..., description="Geo ID for the location (e.g., 'g155032' for Montreal)")
     hotel_id: str = Field(..., description="Hotel ID on Tripadvisor (e.g., 'd14134983')")
@@ -50,20 +47,24 @@ class ScrapeRequest(BaseModel):
 @app.post("/scrape-price/")
 async def scrape_price_endpoint(request: ScrapeRequest):
     """
-    Constructs a Tripadvisor URL from the provided details, scrapes the price, and stores it.
+    Scrapes the price from Tripadvisor based on the provided details and stores it.
     """
-    # Construct the URL from the request model
-    url = (
-        f"https://www.tripadvisor.ca/Hotel_Review-{request.geo_id}-{request.hotel_id}-Reviews.html"
-        f"?c_in={request.checkin_date.strftime('%Y-%m-%d')}&c_out={request.checkout_date.strftime('%Y-%m-%d')}"
-    )
-    logging.info(f"Constructed scraping URL: {url}")
+    logging.info(f"Received scraping request for hotel_id: {request.hotel_id}")
 
     try:
-        price = await run_in_threadpool(scraper.scrape_price, url)
+        # **CORRECTED CALL**: Pass the arguments directly to the scraper function
+        # The scraper class itself will now be responsible for building the URL.
+        scraper = TripadvisorScraper()
+        price = await run_in_threadpool(
+            scraper.scrape_price,
+            geo_id=request.geo_id,
+            hotel_id=request.hotel_id,
+            checkin_date=request.checkin_date,
+            checkout_date=request.checkout_date
+        )
 
         if price is None:
-            logging.warning("Price could not be scraped from the URL.")
+            logging.warning("Price could not be scraped.")
             raise HTTPException(status_code=404, detail="Price not found on the page.")
 
         logging.info(f"Successfully scraped price: {price}")
@@ -76,14 +77,18 @@ async def scrape_price_endpoint(request: ScrapeRequest):
                 raise HTTPException(status_code=500, detail="Server configuration error: SUPABASE_URL is not set.")
 
             logging.info("Attempting to insert price into the database.")
-            hotel_name = f"{request.hotel_id}" # Using hotel_id as a unique identifier for now
+            hotel_name = f"{request.hotel_id}"
+
+            # Convert date objects to datetime objects for Supabase
+            checkin_datetime = datetime.combine(request.checkin_date, datetime.min.time())
+            checkout_datetime = datetime.combine(request.checkout_date, datetime.min.time())
 
             db_response = await run_in_threadpool(
                 insert_price,
                 hotel_name=hotel_name,
                 price=float(price),
-                checkin_date=datetime.combine(request.checkin_date, datetime.min.time()),
-                checkout_date=datetime.combine(request.checkout_date, datetime.min.time())
+                checkin_date=checkin_datetime,
+                checkout_date=checkout_datetime
             )
             logging.info(f"Database insertion response: {db_response}")
 
