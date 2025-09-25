@@ -1,14 +1,20 @@
-# Python virtual environment
-.venv/
-
-# Python cache files
+# Python / project
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Environment variables (contains secrets!)
+# env & local stuff
 .env
+.env.*
+.venv
+venv/
+node_modules/
 
-# Debugging output
-debug.html
-
-# VS Code workspace settings
+# editor / OS
 .vscode/
+.DS_Store
+
+# Claude or other local files
+.claude
+
