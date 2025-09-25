@@ -1,0 +1,1343 @@
+{
+  "extracted_at": "2025-09-25T13:29:49.814810",
+  "scraping_method": "session_based_api",
+  "raw_response": [
+    {
+      "data": {
+        "businessAdvantageData": [
+          null
+        ]
+      }
+    },
+    {
+      "data": {
+        "HPS_getWebHROffers": {
+          "complete": true,
+          "priceDisclaimer": "Prices are provided by our partners, and reflect nightly room rates, including any mandatory fees. Taxes not included. Please see our partners for more details.",
+          "hasMemberRateAvailable": false,
+          "providerNameWhoHasMemberRate": null,
+          "listingKey": "54bc1ab1-a42f-4b3d-a2d5-14a5045e6c29",
+          "additionalDisclaimer": null,
+          "chevronOffers": [
+            {
+              "priceText": "$389",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$447",
+              "isComparisonOffer": false,
+              "provider": "Booking.com",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Booking.com",
+              "providerLogoUrl": "img2/branding/hotels/Booking_Com_v2_384x164_Blue.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [],
+              "data": {
+                "provider": "BookingCom",
+                "contentId": 128335027,
+                "clickToken": "LzW4217ii9SCyfia0tEn1UXvmmoKXk0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1U0zq1U0iit1K0zL1UX0tSci13UkX0Hpn9VI1AKmKX30CEJC91U0nEJC91U0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1ZMq8gNRI7GSvbqInVTRyxXCqixbrWqQyq8qizzWGmXcxE5KxdXVNqnnezzZGmzsteUxEqQEyZRxbgUGr9abZNc7xMCcxM9bbRTSxGx5rsZx5ochbQMq8vwk2zsx2bCaTuKnq8A2UrrbwNVSzzNZusxMGzCHWEXqIqIAJKcqIDQUDpSxXzCpQx2Nqna2EgWix2qQuqihfZZ2xXzz9zClM7vhQxMqQNGxXgKzCxMoW9zCqQafqiAalHHDkwD77zzRzzb2gMR3O9xXwxXozCq8bvqQzCmzCDo2xMMgxXxE7qnVqIRqnx5zsidxGknplI3ttx5gxXqQXCCzCTrQRRxbRaqnpvzCURVwKb02ESnVhGiuC1mvA02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1AKK0EqQ1w0EJIV1mvvYkUKK0IJxEVteJIV1ovYXXKK0TVVteJIV1K0TVVt1ovYXXKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQXHMnmXooTvVKJH3JAnkkTvnHUvKHMAV30Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UoA33JkmXdHv3ddonXVKAH3AdnnXJKTdn0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91nmdmXdAdTvXHdXUMv3JonHkHdHmUKTvV0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "bkJDXy9Db21tZXJjZT9wPUJvb2tpbmdDb20mc3JjPTEyODMzNTAyNyZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9MSZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NjE3MiZidWNrZXQ9OTAzMDI2Jm5yYW5rPTEmY3Jhbms9MSZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9TmRZeU9MdEJoaThBWGNlZkxnUW5WS1QtcWdZVkctaDMybHhIMFcyZU9GY1JHTmgzRXNSMXhxcmdOTEt5MWhUa21BTk9sQkRubERrQUFMZmlVWlR2Tlo1bFNBX2RZOFA3cEVKQW5tZncwY1k5cDFUVEFQT2VpR09Od3ZEaHpiLXIyWFg5YTBsWE1fMU11aVF6dV9KT0ZtcHJ5LW9KcXdWU0NOTnBRR2t6SWRCOFNfRHFPaFF5MHpENS1renFtQ1Y5bUliYk03UE1CQkdMR0FweWRMNmprUVBRNXpZQThxejN6TTVwRGR5UXhCRmVYTEZaRW80VTdjdUl0NnNzWnlRcTJubnpmVF9MTEtMbUZ1OHoxTGVQMEEmcHJpY2VTaG93bj0zODkmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPUxPU0UmbWJsZGVsdGE9OTAwJnJxPVAmcmF0ZT0zODguNzEwMCZ0YXhlc1JhdGU9NTguMjIwMCZmZWVzUmF0ZT0wJmZlZXM9NTguMjIwMCZjdXI9VVNEJmFkdWx0cz0yJmNoaWxkX3JtX2FnZXM9JmluRGF5PTI3Jm91dERheT0yOCZyZGV4PVJERVhfMmJkYzMyNTVmOGUwYWI2YTljNzdmOGNiMTgwYmQ5ZTYmcm9vbXM9MSZpbk1vbnRoPTkmaW5ZZWFyPTIwMjUmb3V0TW9udGg9OSZvdXRZZWFyPTIwMjUmYXVpZD00MWIxZGRkZi03OTFiLTRlYWYtODkyMy03ZTVmOGUwNjVkNjYmZGVmX2Q9ZmFsc2UmYmxkPUxfMSxEXzIsR18yLFdfNixVXzAsQ18yNTA5MjcsVF8xMyZiaD10cnVlJmNzPTE1OTY2YTczMjRiODY0NDVjMmUwOWI2OTRjYzJhMGY0YyZpaz00MjQ2YjE5NDA5Nzc0NTM4YWQxMzA5ZGY5ZGUwMjJlNyZhb2s9YzM0MzI0OTRmODJiNDIxZDg2YTVjYjdiNGIzMTBmOGUmdHA9SFJfRGlyZWN0Q29tbWVyY2UmcGFnZUxvY0lkPTE0MTM0OTgzX2FOZA==",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Booking.com",
+                  "provider": "BookingCom",
+                  "specialratetype": null,
+                  "perNight": 388,
+                  "taxesValue": 58
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$425",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$506",
+              "isComparisonOffer": false,
+              "provider": "Expedia.ca",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Expedia.ca",
+              "providerLogoUrl": "img2/branding/hotels/expedia_logo_384164.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "Fully refundable before Fri, Sep 26",
+                  "type": "FREE_CANCELLATION"
+                },
+                {
+                  "message": "No prepayment needed",
+                  "type": "NO_PREPAYMENT"
+                },
+                {
+                  "message": "Earn rewards for every stay",
+                  "type": "DEFAULT"
+                }
+              ],
+              "data": {
+                "provider": "Expedia",
+                "contentId": 127177917,
+                "clickToken": "LzW421qZ0tEn1UXkUkkAUk0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1X0zq1U0iit1K0zL1UX0tSci1okkU0Hpn9VI1AAKvXA0CEJC91X0nEJC91X0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1GCETfqQJACzCsodhwzCzzy2CsGSSCq8WvIMtHzsKXSyxXiAlvrOprbtGOebx27V9IgDqQZNzCrx2xXxbCSe7oErR3Zx2mu5f3mgsbZdlTdDVyT93bnyKNrbhEmIh9Jmx5xMN9x2ixGkzslx2kKioazsqnxXW5Qdx5hmivq8qQzzR5x2dKK3q8xGzzZHG2qnxdT7DKoHg77qIANu7WpvVbQJfwXmqIqImoxGzszCeGIIKiruNCxEXgpJy9Ka5VpsRxbHcrR5DHx5bgiqnIX5w7whCkfGIx2x5ZdxXnRxMyrxdTaEtgpvG9yQxXeybdxMrSSknzCJxXxGwq8dNxdzCpq8G79elqi5fbqiDx2K02ESnVhGiuC1dXo02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1doKK0EqQ1w0EJIV1dXoYXoKK0IJxEVteJIV1vKYkvAd0TVVteJIV1KYKKKK0TVVt1vKYkvAd0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQmKkkAToKAVUv3XXMvM3AnmAHv3XmUnvm0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1U3UKnvkHUvXKmV3VJKTMokKmmdmHkX3kV0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91n3JAnoHkJmUAddVvJJ3HdoMTKUoAJXod0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "QjlqXy9Db21tZXJjZT9wPUV4cGVkaWEmc3JjPTEyNzE3NzkxNyZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9MiZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NTc3MSZidWNrZXQ9OTkwODI5Jm5yYW5rPTImY3Jhbms9MiZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9aG5yZkNxYTluenY1NFNQekdncG52aGlpblktOHRkc2JFMDJpZ1FvOUk4VGp1VEFzaGpSQUpCZWt0eU1xTk96VEpRS25pUkI1clRMNk5KM3dIQzYzeXZBTjRJZjRNZWdmazZBY2cwT1RBU3IzdFNrYTNaRE9rSm9VN0VJSjcwbzVtRUZRLUhfNFpTM284WXFHTEhKNDAwNllVR05iaHBGV2ZCTTA1YnlCQlg5T3dCLXU4ZUFfYUNQMjNYWDM1VUV6Umh0dDBvVHdPbngyeXVhZ2swbUhldXZMS2JsVExITWJaQXlvRnQySFBCUFNuN0NodEpaTjRRY0xEZ1RXZm1yc3l1OGhrZ19RUmdBNERUaWk3Y3phUVVQWTRPV3p1WWhCa1JJVkhDQVZNSjAmcHJpY2VTaG93bj00MjUmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPUxPU0UmbWJsZGVsdGE9NDUwMCZycT1QJnJhdGU9NDI1LjI1MDAmdGF4ZXNSYXRlPTgwLjc4OTQmZmVlc1JhdGU9MC4wMDAwJmZlZXM9ODAuNzg5NCZjdXI9VVNEJmFkdWx0cz0yJmNoaWxkX3JtX2FnZXM9JmluRGF5PTI3Jm91dERheT0yOCZyZGV4PVJERVhfMzA3NzlmNTA5ZTE4NjIyZDhkNjljMzliODYyMzFjODMmcm9vbXM9MSZpbk1vbnRoPTkmaW5ZZWFyPTIwMjUmb3V0TW9udGg9OSZvdXRZZWFyPTIwMjUmYXVpZD00MWIxZGRkZi03OTFiLTRlYWYtODkyMy03ZTVmOGUwNjVkNjYmZGVmX2Q9ZmFsc2UmYmxkPUxfMSxEXzIsR18yLFdfNixVXzAsQ18yNTA5MjcsVF8xMyZiaD10cnVlJmNzPTE2MTBjODdiMTgyMDNlNmVhMGZkNTcwMzM0M2I3MjY3ZSZpaz00MjQ2YjE5NDA5Nzc0NTM4YWQxMzA5ZGY5ZGUwMjJlNyZhb2s9YzZhOWM1YjdhMzE5NDRlOGFhNmI0NWRmMDE1OWEyNTQmdHA9SFJfRGlyZWN0Q29tbWVyY2UmcGFnZUxvY0lkPTE0MTM0OTgzX0Jzeg==",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Expedia.ca",
+                  "provider": "Expedia",
+                  "specialratetype": null,
+                  "perNight": 425,
+                  "taxesValue": 80
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": 1,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$382",
+              "taxesAndFeesText": null,
+              "isLowestPrice": true,
+              "canPayInInstallments": false,
+              "strikeThroughText": "$464",
+              "totalStayText": "$455",
+              "isComparisonOffer": false,
+              "provider": "Vio.com",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Vio.com",
+              "providerLogoUrl": "img2/branding/hotels/Vio_com.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "Fully refundable before Fri, Sep 26",
+                  "type": "FREE_CANCELLATION"
+                },
+                {
+                  "message": "No prepayment needed",
+                  "type": "NO_PREPAYMENT"
+                }
+              ],
+              "data": {
+                "provider": "Vio",
+                "contentId": 240957108,
+                "clickToken": "LzW421qiSi0tEn1XdKAokUKv0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1m0zq1U0iit1K0zL1UX0tSci1dk3mk0Hpn9VI1AAkdo30CEJC91A0nEJC91A0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1ixbxdDXwCIkxXmxEXNJx2OMrVrOIezsKe3exXDqnQzCNrZqimitxMEsR3HWHiIxXNq8vIx2MWIabexEZbnIkSzzAzzzsvR3HqIkrWJOpRMtA3hoHxMwgvfWpTxbhCEReUzCyiU3qivSKx2ahwKXzsTXWxGcoXxE9IsZQyNqivqIxEqnErqIVHasRxEu5grEJqQzzwpg3qQyzzxbx2l2Ex23QxXCkxdxdzz9yUfAqQbqIMlayqnGKq8NUeUqIx5T7JqQqi2XQdCDqnwmeVfxXhzCqIEvZR7xGSccItJx5QK3SaxEcqnHbq8qihOzzSzsynOQfZu3q8DIx5qnTkKWQTzCCdxXVxEGb5zzXgzssEtczCJARcxbgb02ESnVhGiuC1mvX02a17wqn0GJn1bqiblRb7Rzs0aHc1Dzszsr0aHcMVcIJ1XKK0EqQ1w0EJIV1mvXYUmKK0IJxEVteJIV1kXY3KKK0TVVteJIV1KYKKKK0TVVt1kXY3KKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQ3oJnTXdKHVkJXV3HdT3AdKnoTAKdKkJU0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UdoovXM3T3nvAMVmUTJMVKM3KXUdndVUn0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91K3HmndVJUKokdoM3vnUAMvVXMKdTTdnH0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "bTQ2Xy9Db21tZXJjZT9wPVZpbyZzcmM9MjQwOTU3MTA4Jmdlbz0xNDEzNDk4MyZmcm9tPUhvdGVsRGF0ZVNlYXJjaF9Ib3RlbF9SZXZpZXcmc2xvdD0zJm1hdGNoSUQ9MSZvb3M9MCZjbnQ9MTImc2lsbz00NzYzNyZidWNrZXQ9OTk3NDU2Jm5yYW5rPTkmY3Jhbms9OSZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9b0tXTTJQbnQ3UTN4Mk9hSmpkVGVUanRSRTBSNlJRTUZfek9UTlYzb3NEcnZMNmItYm90UU9ZOHRKZC10bUFSeE5BY3Q3aUc5R0U4TDZiWDdULWFqdUxkczk2UzViRFB5OEMtdWZLU25yTFIxemdvMTZWOGkwSm1TUDAyRWYyLVVsNTJ4a3R2Tl9nT1Y4WHhGclRYZWJtdkx4d0h5VHJhcUdQdXk2cWdHS0pJcHJKNl9RbjdXV0drZzFDOXFBWGRJbWdGaDBZTzFSMVhaZkJhcVZwMl80bk1GUDNSZUNRU3pYcjhOTEJVaWxsdHNhWl8wNmlteGxGYkFZVlNqR2lFZ2NqX0NOdzZZTXRaRmY3MC1fZnpuNFFleGhBSEcyeUV2cnNsemE5TGxLeUEmcHJpY2VTaG93bj0zODImcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPU1FRVQmbWJsZGVsdGE9MjAwJnJxPVAmcmF0ZT0zODIuMTMwMCZ0YXhlc1JhdGU9NzIuNjAwMCZmZWVzUmF0ZT0wLjAwMDAmZmVlcz03Mi42MDAwJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF82NWFjZjI0MGJlN2EyZTZiNGY2OTQwYzVmOTA0MDdhMSZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MTQ1NTgyZDZmNmM4OWRlMzFmYWRlMGQ2MDIxNGM0ZTFjJmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz0wNmIzYzRlYTEwNTc0NWQ2OGMxOWQ4ZTJkMDRmZjRjYiZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfa2Zl",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Vio.com",
+                  "provider": "Vio",
+                  "specialratetype": null,
+                  "perNight": 382,
+                  "taxesValue": 72
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            }
+          ],
+          "textLinkOffers": [],
+          "hiddenOffers": [
+            {
+              "priceText": "$425",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$505",
+              "isComparisonOffer": false,
+              "provider": "Hotels.com",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Hotels.com",
+              "providerLogoUrl": "img2/branding/hotels/Tripadvisor Hotels.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "Fully refundable before Fri, Sep 26",
+                  "type": "FREE_CANCELLATION"
+                },
+                {
+                  "message": "No prepayment needed",
+                  "type": "NO_PREPAYMENT"
+                },
+                {
+                  "message": "Members earn reward nights",
+                  "type": "DEFAULT"
+                }
+              ],
+              "data": {
+                "provider": "HotelsCom2",
+                "contentId": 125435702,
+                "clickToken": "LzW421z1fiaX0tEn1UXodmokKX0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1d0zq1U0iit1K0zL1UX0tSci13KdX0Hpn9VI1vdXUAX0CEJC91m0nEJC91m0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1IEpV0nJ22VM1TJctV0yitixE15lX2N5DNv5xbTCxMx27VEW3DoqitxGUAvAdb3xGQWx5yqiG2Hc3qQazsJX3TCUbuexdxMqnDux2ix5xExMghtxMyOqQl92Dfg7pUAzzmqQnyxXq8ZxXxMx2JRaSeOdgxEyheUevdzCZxXtzCVixbvq8sKiGxGS2xGoawSOsJHRI9xMCCvnyTx5scHNqnx2hqInrNkxdzCxMzsHXxGipK3U3Ipg2iIkzzrrezCNEexMsxGWayxbxGxbwZNxXxEgxGsmqIeNMXKfNxMxbn9qQcfWxMczCcqQUhxGJuIqQUIayGtq8tXa3AK7fergOxMxXqiMtlx2xExMx5NzzXkqQdpzzzC22dHG7zCqQ5GOizCJMXJ9xbKxX7xETRhsan02ESnVhGiuC1dXo02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1doKK0EqQ1w0EJIV1dXdYoAKK0IJxEVteJIV1vKY33KK0TVVteJIV1KYKKKK0TVVt1vKY33KK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQoMJvTKUTTJJUJdUJUmUAmKAMmJoTJJXU0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UvJHUKKTkmKVokvdUmMHndTVAvUMnVokJ0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji913mmnvJAddXoUddKdAvnUkUmATkmJXTvT0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "TVhhXy9Db21tZXJjZT9wPUhvdGVsc0NvbTImc3JjPTEyNTQzNTcwMiZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9NCZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NjA0MiZidWNrZXQ9ODQyMTkyJm5yYW5rPTMmY3Jhbms9MyZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD10cnVlJmNhcHBlZD1mYWxzZSZnb3NveD1ISTJwT0hNTzhIS2ZuREpCZXItNk01VnNVMTk4OTRBNlVfLVpnVmhwYmw2cW1FYTI2Zm4xQXdSV0RGTXdKb1p4RHlTc0RnanFJa3BNQ3lCdTE5RzNxY2dRWU5RREphTG1pUmo0eXhnU1IxUjg0ek5Rc3plb0s4WXYwb2hVaXBVNW1QaWp2YWJMdGtEbm44Y2dmWnZsYk9GSlNYY1RPN1d6REViMlVvdTA2MTZ0dXlwb3Q3R1RUUnpPclJEdlUtbWdLVUtQTk9ReHlVdjNYUk9kMjBDT0RLY2txbEMtRGx6bHExU1Vhd3RxMXRtZ2hzWXMybTY5MEJDUlR5akRRVmRzSUp4RFpPRzI3cTR1R3pwcDRiaEJ6cUhoam96YWQyYWtLMFFCeGZMU3ZtYyZwcmljZVNob3duPTQyNSZwbT1CUEYmaGFjPUFWQUlMQUJMRSZtYmw9TE9TRSZtYmxkZWx0YT00NTAwJnJxPVAmcmF0ZT00MjQuNTkwMCZ0YXhlc1JhdGU9ODAuNjYwMCZmZWVzUmF0ZT0wLjAwMDAmZmVlcz04MC42NjAwJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF81ZGE4ZjAxZmZhYTFhNDFhMTMxOTMwOWQzYTVmYWEyMSZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MThhYjEwMGY3MzBlNTc4NDEzZGJjNGZlOTgxZGNlNTdhJmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz02MzNjOGE5NDQyNTE0NDA0OThjMTcxMzlmNzNhMmY4ZiZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfQXFj",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Hotels.com",
+                  "provider": "HotelsCom2",
+                  "specialratetype": null,
+                  "perNight": 424,
+                  "taxesValue": 80
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": 1,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$443",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$527",
+              "isComparisonOffer": false,
+              "provider": "Official Hotel",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Official Hotel",
+              "providerLogoUrl": "img2/branding/hotels/official_hotel_site_2025_384164.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "Fully refundable before Sat, Sep 27",
+                  "type": "FREE_CANCELLATION"
+                },
+                {
+                  "message": "No prepayment needed",
+                  "type": "NO_PREPAYMENT"
+                }
+              ],
+              "data": {
+                "provider": "TravelClickCPA",
+                "contentId": 170230794,
+                "clickToken": "LzW421zufcSn9fwb0tEn1UkKXmKkAd0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1o0zq1U0iit1K0zL1UX0tSci1mokvm0Hpn9VI1Amd3mk0CEJC91d0nEJC91d0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1IEpV0nJ22VM1TJctV0yitixE1xXZhQQfhbxdJTxXxXOaqnx23qIqQxXx5XUC3bTzzEzzGpx2k5uhuDqnq8QzsMs5JVbxGuglgGVtcknUqQxMNacANT3XfJzCxbSazC2kzzIxGf5SKbhxM2lHHTEdQ5vxEWvy9bOzsxGIoJsIq8wWxXq83bqIqilVyeGMAvuNRuCnZuu2vauhi7q8f7UOqn3xMx5xMqQSATAIxGoqI92x2EbxEzCtRvx5XDDq8kN7SfpKMx5Oq8oxdzzVdqndUxMgxdqI9zsGqIxEroAyx27nqiqiTwRMvHcx2zsyCxMqQq8Xq8SShxEOqixbzzRJIUxGkfWvAgQgHzzaTANi2tx5exduzzqnxGixEiGl5lQuOnNaxMRxdeqIWAwsmvoWzs5tq8xX7xEItGR3kx2nXshohty02ESnVhGiuC1ddm02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ13mKK0EqQ1w0EJIV1ddmYX3KK0IJxEVteJIV1vdYXXKX0TVVteJIV1K0TVVt1vdYXXKX0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQXJXMMmHnUVdJvUAVomdUUMHKJMUAMmmH0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UJ3dJoAJVTHXJvvAUodddnTVkTVoUnmnH0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91JM3XJknJm3dndHAnHoXo3VK3nkvAvUvU0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "dmpqXy9Db21tZXJjZT9wPVRyYXZlbENsaWNrQ1BBJnNyYz0xNzAyMzA3OTQmZ2VvPTE0MTM0OTgzJmZyb209SG90ZWxEYXRlU2VhcmNoX0hvdGVsX1JldmlldyZzbG90PTUmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTM1NzgzJmJ1Y2tldD05MzQ2MzcmbnJhbms9NCZjcmFuaz00JmNsdD1EJnR0eXBlPURlc2t0b3BNZXRhJnRtPTMzODczMjk4OCZtYW5hZ2VkPXRydWUmY2FwcGVkPWZhbHNlJmdvc294PVFOU19fQ1NBV2FmUVFqbUZKNlhxUVoyMW42QWZHckdodUo3SHdTd01GWV9FZHZIYWVBVXd5SXloZXNsN2MxcURPbWw5T2Y2MkNhektpbXpwN0d0VUNIaTBBU0RwSWJiZnI0X0g4eC04Z2tBakVVdDVhdnRZUC1RWTZBWFZJZWdSaGQ5OHdPTHduY053d3A4bXdTb0JZQ0IxakY2RFpEcWk5Zjl0VTVYa3BKckF4enNMOFoyTU1ZN09CaUN1MGRaalk1V0dlNEY0MUR5V1hrRWhYeFQ1OWdKQmNWVmZQTGQ4YmxKRWduRHFZMllpaVN4alZLR0xhdDFVN0MtODl5X3liR21mOU9vcHNaUld3R0ZVb3hvaElISV93amNPbURMV1JYLTlQdjM4NS1FSHNZUUJ4dHNoTDY3SmMydlM1U3NnJnByaWNlU2hvd249NDQzJnBtPUJQRiZoYWM9QVZBSUxBQkxFJm1ibD1MT1NFJm1ibGRlbHRhPTYzMDAmcnE9UCZyYXRlPTQ0My4yNjAwJnRheGVzUmF0ZT04NC4yMjAyJmZlZXNSYXRlPTAmZmVlcz04NC4yMjAyJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF8yYTJkZDNiYzFlNGE4MTllNTM0MTFkYjBhZDE5ZDMzYiZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MWE2NGE1OWFlZmIyYTg4OTE1NDQ0Y2ZlN2ZlNTFjM2NiJmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz1hZDYyYTdjYTM2NGM0YjljYjUyNTZlMDZjNzg5ODE4MSZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfOFFS",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Official Hotel",
+                  "provider": "TravelClickCPA",
+                  "specialratetype": null,
+                  "perNight": 443,
+                  "taxesValue": 84
+                },
+                "isSupplierDirect": true,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$464",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$480",
+              "isComparisonOffer": false,
+              "provider": "StayForLong",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "StayForLong",
+              "providerLogoUrl": "img2/branding/hotels/logo-sfl-pink-tripadvisor.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [],
+              "data": {
+                "provider": "StayForLong",
+                "contentId": 148110628,
+                "clickToken": "LzW421hIJgqniERiCy0tEn1UdvUUK3Xv0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK130zq1U0iit1K0zL1UX0tSci1d3dm30Hpn9VI1UKUvUk30CEJC91o0nEJC91o0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1IEpV0nJ22VM1TJctV0yitixE1AxbzsqnzsqnczCUlQxEJ5ssAeOgAMzsxXfaqnggAx2hxXKrx5HzsRqieoNxGzCyHOgcbqIqitt2vv92CAzsAqiUzzshhAba3sIgfEQuwqnJUuk5lw5pybxMolpQ7aSrxbqQq8r2xXDVxMRiigxGzCIqIhioAtqQxGxXIftxdqnzzGbzCax2knHvVZObZx5t72zsbAcWiDpypMxGRx2daErlxdWqnMMCAA3dxMHp3yqISRsOOx2zsGaXezsbE3wxEIfMQRvxXfqix2bktxMuqnyhqQKRswJIGqnyT2qIhxEExdqQNsx5kqiADKpxXxdnuxMUqQS77bvHulsJyxEruxdqi3VzzzzWAmuzsVqnWzCr7Ol3mGsgHhySnzzJkIS2x2f2QIAyUUqQTx5qQx2K02ESnVhGiuC1d3d02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1vdKK0EqQ1w0EJIV1d3dYUkKK0IJxEVteJIV1U3YXdov0TVVteJIV1K0TVVt1U3YXdov0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQkMdnmdHXJkVHTAUUkAKKoKVomvHUK3k0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1U3nHUA3kVKKmvUmAJJoAkUkmVvVoTHkm30S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91KToTvvdMUdH3dVdkvAvod3TVVdXoKnMH0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "UW94Xy9Db21tZXJjZT9wPVN0YXlGb3JMb25nJnNyYz0xNDgxMTA2MjgmZ2VvPTE0MTM0OTgzJmZyb209SG90ZWxEYXRlU2VhcmNoX0hvdGVsX1JldmlldyZzbG90PTYmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTQ2NDM2JmJ1Y2tldD0xMDE4MTc2Jm5yYW5rPTUmY3Jhbms9NSZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD10cnVlJmNhcHBlZD1mYWxzZSZnb3NveD05S0VGRUZsejFJX3hhSHZ2OVJqeTlkRVFDbUZ5eTlKU1EwVFpiRUxWUjVPVXpnYmp5bEFYVnNzcDg4a3BuOUU5VjFHdlNTOUFtNnZ0eUNyX3dQRmExdzdISVBIdWdBRDVJdV9CbWlUS3FZVHBRTWVETG9veVV6dFhTbzU5c3FVUXRDc1dGR2hBem1KN2NiOGVOakFOWnNCcEVBOWwtb011Z3VkVUxKNG1yVElXLUZkZG45OTY0RGJ1NmdYaUx2ampKRWhtMlJFQXI2UHh0Q2RfTDhRQ1ZKQTdzRHdGZ1NxMEx2UGF0aEZnZnBYU3hyV3FPdlo3VjlNMHVRV2N3RDFxaUJCQThid0l2YWd4VHdXVjZlR0ctOTN3RWVGLXpUQmpJNjNodnliU2dpY0dhN3RpcEpDcF90OWcxMXFmWnFKMCZwcmljZVNob3duPTQ2NCZwbT1CUEYmaGFjPUFWQUlMQUJMRSZtYmw9TE9TRSZtYmxkZWx0YT04NDAwJnJxPVAmcmF0ZT00NjQuMTcwMCZ0YXhlc1JhdGU9MTYuMjQ1OCZmZWVzUmF0ZT0wJmZlZXM9MTYuMjQ1OCZjdXI9VVNEJmFkdWx0cz0yJmNoaWxkX3JtX2FnZXM9JmluRGF5PTI3Jm91dERheT0yOCZyZGV4PVJERVhfN2Q0YzM0YjJhN2ViZjkxMTc5MDA1MGU1MzhiMTA2NyZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MTZjYjE5NjdlMDAzODEzOWFhNTk3MTczZThlNWZiNzM2JmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz0wZjVmODg0ZDE0YjY0ZTQ3ODk4NTQ2ZmVlNDI1MGNkYiZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfbTF0",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "StayForLong",
+                  "provider": "StayForLong",
+                  "specialratetype": null,
+                  "perNight": 464,
+                  "taxesValue": 16
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$386",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$459",
+              "isComparisonOffer": false,
+              "provider": "Skyscanner",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Skyscanner",
+              "providerLogoUrl": "img2/branding/hotels/Skyscanner 384x164.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [],
+              "data": {
+                "provider": "Skyscanner",
+                "contentId": 247259536,
+                "clickToken": "LzW421h9gtnJCCVE0tEn1XdkXoAom30zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1k0zq1U0iit1K0zL1UX0tSci1dvdkm0Hpn9VI1UKKXAAA0CEJC9130nEJC9130ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1DZRCNOiix2Av53QGUITx2qIfEwrzzXxEszzDxdcHx5x22x2ytEMUVEDg2a9kNxdHnRrszCxErxEJbvktMxMfWZxbfM3i3xXq8nto5xbqinDn77xbJzseH5D7uS7vDxdpq8HTnIaxENGAzCG92xdstQUvqnk57xbgxGeRqI7ZMzsQKufzshzzx5qin7zsqnMqixdephVbWkzzekxXesxXeeo22SH32q8qiuiWGuRkSeSHq8Mx5zzhHO9icGlx5x5xXHQqnTWtzCNDx5NsOHuxEx5AWxdEtlqnxXmUbgfGXoUxMIwqIexb3x5zCpTuUtqIkxMqIgEmq8qQy9viUKkxMaGqQzsqQ5b02ESnVhGiuC1mv302a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ13KK0EqQ1w0EJIV1mv3YKKKK0IJxEVteJIV1kXY3mKK0TVVteJIV1K0TVVt1kXY3mKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQHAkVUJvvHTXUnVAJToTXKKJHooHHHkV0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UXK3AVAoUmAKknUXUkAMkkJMmdvmdmHno0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91KdvUooTAM3dAdkoAHXKHKdJH3ToVdXod0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "YjJoXy9Db21tZXJjZT9wPVNreXNjYW5uZXImc3JjPTI0NzI1OTUzNiZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9NyZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NDg0NzMmYnVja2V0PTEwMDI5OTkmbnJhbms9NiZjcmFuaz02JmNsdD1EJnR0eXBlPURlc2t0b3BNZXRhJnRtPTMzODczMjk4OCZtYW5hZ2VkPWZhbHNlJmNhcHBlZD1mYWxzZSZnb3NveD1NTkxuT2pvb0o5OEg2X2gxdGZKWENyUFRHMnh2R01XbGJaSnBKZ3NyZDFlck15cG1rN09XYmNMVHZ6eFR4YUE4N3NkREMtTktDZDZvNlFZY3M1SEtWY01jQkJLYUVSYkhNQndpQjhNV3VZYmZjdG14T2g5emhrcFd2c18xOEY3SEJLeVVSTFhCTmRFXzB3Q0VTR1pWY0JFRmRWV1J1U2VBLTdHUjdRUnZRUlI1cHBpYjZwWVZ3by1od0w3aVJpYllkWkdTYmprb2xoSVpaUWJfRmYtc3pPTVpPdmpid3haOS1XcnNJRlEzMUF5Q2gyNTFEdFBYUks2Wnp1Zncxc1g3RFh5cjNZcWdrOG8xMDdEbWhxRXFIQSZwcmljZVNob3duPTM4NiZwbT1CUEYmaGFjPUFWQUlMQUJMRSZtYmw9TE9TRSZtYmxkZWx0YT02MDAmcnE9UCZyYXRlPTM4Ni4wMDAwJnRheGVzUmF0ZT03Mi42MzAwJmZlZXNSYXRlPTAmZmVlcz03Mi42MzAwJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF9iOTdlMWE4OGJmMjFjZTlhZjVmMjAwYWI1NWJiYjdlJnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xMjA2OWU5NTEzOTA3YzEyMTc5ZDc3YWQzNDgzNDNiYzUmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPTA0ODE1NWY5ZDY0OTQ3NTliMjBiMDRhYjZmNWU0MjU0JnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M182OHU=",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Skyscanner",
+                  "provider": "Skyscanner",
+                  "specialratetype": null,
+                  "perNight": 386,
+                  "taxesValue": 72
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$425",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$506",
+              "isComparisonOffer": false,
+              "provider": "Priceline",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Priceline",
+              "providerLogoUrl": "img2/branding/hotels/Priceline_Blue.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "No prepayment needed",
+                  "type": "NO_PREPAYMENT"
+                },
+                {
+                  "message": "Go to your Happy Price",
+                  "type": "DEFAULT"
+                }
+              ],
+              "data": {
+                "provider": "Priceline",
+                "contentId": 175589724,
+                "clickToken": "LzW421wESnVcSCV0tEn1UkoovAkXd0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1v0zq1U0iit1K0zL1UX0tSci1UkmkA0Hpn9VI1UKUXdov0CEJC91k0nEJC91k0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1MfqnSx5fAxXEraDaqneuxERiWWQavxGExGrIbsEzChzskzsMqIq8xMIIqiqnkTNGCDrQAphwMxbGAizziv9tx2cn9WUexEQUlCq8sIax5qITx5MzsThSXcx2bgq8cJzC5AXqIqnAQdyxXlOxXWSwMxGhTIHxbnq8gZGzsI7fqnNs5me9cxXnnrxEO992WVXqQqnxGTOx2lfHdgxdkxXvcvWpaUsycHzCxbxEH2axGmxXqio3xXqncJDcQqiWhxdCkk7Qrtq8q8sskaqilVtvq8hUzzqiGQfqQ2lq8Rqiq8rsxX5x2VwexdxdqIaGCUE3JVOxGirxXrKKqi7mEqIDzskkzswmZEMAukzzxXx2HxEaezsMyTxE2q8cR7JtxMOXq89hhOQQAfssexXvN3RGW02ESnVhGiuC1dXo02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1doKK0EqQ1w0EJIV1dXdYkvKK0IJxEVteJIV1vKYkmKK0TVVteJIV1KYKKKK0TVVt1vKYkmKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQUKUMVnUnn33HXJkAUXmJooMVUJUvATAk0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UmTAvVKHHJVXJmmUXmoJTkJJ3TMvAHUJM0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91XMMdvHAkdHJXdHmVHvkXUVUmnmdVVdmJ0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "Q3JlXy9Db21tZXJjZT9wPVByaWNlbGluZSZzcmM9MTc1NTg5NzI0Jmdlbz0xNDEzNDk4MyZmcm9tPUhvdGVsRGF0ZVNlYXJjaF9Ib3RlbF9SZXZpZXcmc2xvdD04Jm1hdGNoSUQ9MSZvb3M9MCZjbnQ9MTImc2lsbz0xNzM3OSZidWNrZXQ9MTAxMjQ1OCZucmFuaz03JmNyYW5rPTcmY2x0PUQmdHR5cGU9RGVza3RvcE1ldGEmdG09MzM4NzMyOTg4Jm1hbmFnZWQ9ZmFsc2UmY2FwcGVkPWZhbHNlJmdvc294PWRDRmlaQzlRclRtTW1GUnd4TG8tLV9tOFVyVVR0QXZyelNFN0VkWFlEdHRWRjdmT2huTVRfOXVTUGRLaDlvR284a3NKbGNrLTFSeF8xSW5ZdnRtWlhmWmRFZlNpMmxKQXlZbGF6SDkyWEY5XzRnUUlqUS1pUGRVU2Z0YktjWXlOaEV0QkNGT3ZIM1JrbFFjY1R4amtrcC1lMnFGVWZqSklDYjR5VzdROGw4LXVtMXZnbGJ6S3hicG1VM1FWNTZRRmxhTWxfVi1TV243N0JfVHNZWXZ2N21WSWVzOFlTMUdWaF9DcXBJWUxWWVR2UUhKZVBSV1dYbWhuMXI2YWVqVW9UUVQwMFZCM3JYTUU3N0VQM05yZDl3N0dRSmJ4bVJFZGdmeHBZbExCYXNEajJZa1NTal9fOUN2dlJROE82TGgtJnByaWNlU2hvd249NDI1JnBtPUJQRiZoYWM9QVZBSUxBQkxFJm1ibD1MT1NFJm1ibGRlbHRhPTQ1MDAmcnE9UCZyYXRlPTQyNC43ODAwJnRheGVzUmF0ZT04MC43MzAwJmZlZXNSYXRlPTAuMDAwMCZmZWVzPTgwLjczMDAmY3VyPVVTRCZhZHVsdHM9MiZjaGlsZF9ybV9hZ2VzPSZpbkRheT0yNyZvdXREYXk9MjgmcmRleD1SREVYXzEwMWRlYzFjYzY2YjJhNzkxMjNhNTVkZTFhMTg5Zjk3JnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xM2Y5OGUwYmJhZTJhMzMxMjM1YWY3YWE2ZmQ4OWIxYWQmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPTJkZDQ4Yjk3NGJhMjRiM2ViODcyMWUxM2MzNGVlNDNhJnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M19Mbmk=",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Priceline",
+                  "provider": "Priceline",
+                  "specialratetype": null,
+                  "perNight": 424,
+                  "taxesValue": 80
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": 1,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$380",
+              "taxesAndFeesText": null,
+              "isLowestPrice": true,
+              "canPayInInstallments": false,
+              "strikeThroughText": "$464",
+              "totalStayText": "$437",
+              "isComparisonOffer": false,
+              "provider": "Agoda.com",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Agoda.com",
+              "providerLogoUrl": "img2/branding/hotels/Agoda.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "World Travel Sale",
+                  "type": "DEFAULT"
+                }
+              ],
+              "data": {
+                "provider": "Agoda",
+                "contentId": 172601160,
+                "clickToken": "LzW421byiMJ0tEn1UkX3KUU3K0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1A0zq1U0iit1K0zL1UX0tSci13m3v0Hpn9VI1AKk3AX0CEJC91UK0nEJC91UK0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1eE3CVuCxbqiAdHgXTzszsrTHikCAEvnrx2OZbfq83I37Hq8OIVHxdvbhgcdpQGIoqiUx2evEesDpTUxbaqnxdxMlWywp5C7qnqIwNxEGfvqnIpxEoOzsxElzzWqI5akzsiIzzqizCkrwcqI3UOaRKyehzsqiCr3IQcpxbJN9tzzdIZqQ3t7x2RucHx2GCoE22iuWHsTKaXxdq8HbIKyxXxGszsoMSfuM93xbbvx2VWHlxbigKsAqnxEsbx2qQ5sxMmrOxbJx5HAkqiem7biZTqisUnpA5zCxMkxGAaqIzsxdxXETHZZhRugxdulndKvyqIzsxErtNRU7Ds3OUxMp9cinGUWOptnZ9DJmMQytSuxX02ESnVhGiuC1mvK02a17wqn0GJn1bqiblRb7Rzs0aHc1Dzszsr0aHcMVcIJ1K0EqQ1w0EJIV1mkAYvvKK0IJxEVteJIV1o3YAUKK0TVVteJIV1K0TVVt1o3YAUKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQ33VTKdmKVdod3d3dATndXdHAXAVAnvdv0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UvJkkHMAMdVAAXVAAHUU3TXdUnAKMVAAV0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91vnvMMUMoTvomdnnKAoAVXokXnA3kAodd0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "YmRDXy9Db21tZXJjZT9wPUFnb2RhJnNyYz0xNzI2MDExNjAmZ2VvPTE0MTM0OTgzJmZyb209SG90ZWxEYXRlU2VhcmNoX0hvdGVsX1JldmlldyZzbG90PTkmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTYzNjgmYnVja2V0PTkwNzY5MiZucmFuaz0xMCZjcmFuaz0xMCZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9UnI2bmV3bktWOTRieTJmRUVUZmJvN245cjhjVEpqTkFDWTZ0NkJiWWp0ZWJXOEFTeWw0dV9odDVWMUpSOHJSdk11ZjFLbUZXREktZ1B1SG5CRlhQT3hoQzhGdHV4NWpFeElHLVhIbTdFb3RHVno3VFBsWDYxam1MMGdSU0VWblQ2dF9sdUthT2tzRzR0TnE2c0JKTHdsYkpobjVycHBvdy1idmYwbTJXWWJBdDBnUVV2RTVkaUN3ZGs2S0E4SmUtYklLb3kwdjlGeHZBSnFIdkQzVGpLYVpiOTdWUjNCQW9OZlZ2MWN1OUh6RDdVOW1YRVdRcmZiTk5TTHd5V3dJYzQwOGdYRXhUc09MMUJNdjZqMUR1a2xvY2gxLWp1c2NOa01hM2RfZ3Npd1EmcHJpY2VTaG93bj0zODAmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPU1FRVQmbWJsZGVsdGE9MCZycT1QJnJhdGU9Mzc5Ljg4MDAmdGF4ZXNSYXRlPTU2LjkxMDAmZmVlc1JhdGU9MCZmZWVzPTU2LjkxMDAmY3VyPVVTRCZhZHVsdHM9MiZjaGlsZF9ybV9hZ2VzPSZpbkRheT0yNyZvdXREYXk9MjgmcmRleD1SREVYXzY2ZWYwNDMwZTQ1NDY0NjQ5ZmM0MjRiOTI5ZTljODQ4JnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xOGE3N2JkOWQ0ZTk5MmU5OWIxMTZmMjQxYzkwZGU5OWUmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPThjOGRkMWQ1Zjg1MzRjYzA5NTllMjU3MmM5Njc5NTQ0JnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M19tZHE=",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Agoda.com",
+                  "provider": "Agoda",
+                  "specialratetype": null,
+                  "perNight": 379,
+                  "taxesValue": 56
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": 1,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": "$398",
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": "$474",
+              "isComparisonOffer": false,
+              "provider": "Trip.com",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Trip.com",
+              "providerLogoUrl": "img2/branding/hotels/trip_logo_tripadvisor.png",
+              "status": "AVAILABLE",
+              "merchandiseMessages": [
+                {
+                  "message": "Fully refundable before Sat, Sep 27",
+                  "type": "FREE_CANCELLATION"
+                },
+                {
+                  "message": "Earn Trip Coins after your stay",
+                  "type": "DEFAULT"
+                }
+              ],
+              "data": {
+                "provider": "CtripTA",
+                "contentId": 137836793,
+                "clickToken": "LzW421fIES2rb0tEn1Umkvm3kAm0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1UK0zq1U0iit1K0zL1UX0tSci1k3kK0Hpn9VI1UKXKX3U0CEJC91UU0nEJC91UU0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1aSyoZCdTAqQxd7vqnavc7qIdcnqi5fxMhZGuxMXcvqIQdTuIgEZkZgZmxMxbRXoUrODDJxEmAooUzzRfJyXiNrqnyXxd5u2RUJd5w7HwVqQVnxdbqIOxXkxGqQyxMqn3Udq8xdUHixd3AC5x5qnQVpR9shxd2UlDvvQxGUAHxMqnUvMcZKgfsDeV29I3qQEtxbcRbkqnx233J9x27257xd3cpfEq8aVzzuizCOvbDknlU2TEqIqnR9QqnylaZcgxGggqIqIhhexboDvH7ZE79CkG5IfhTOylzshxGxdqQx2opzsyEtlgqi02ESnVhGiuC1mAv02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1UvKK0EqQ1w0EJIV1mAvYmUKK0IJxEVteJIV1koY3kKK0TVVteJIV1K0TVVt1koY3kKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQoKomAUXJJdonKKKoTVdM3XUnVKdvKVnV0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UkMAVM3dnm3oTTXAvHnAmKmKnodUnVKKv0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91JTMTAddHnTnndTXAAXAKKkV3onTVXVMH0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+                "commerceUrl": "bldDXy9Db21tZXJjZT9wPUN0cmlwVEEmc3JjPTEzNzgzNjc5MyZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9MTAmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTc2NzAmYnVja2V0PTEwMjAyNjEmbnJhbms9MTEmY3Jhbms9MTEmY2x0PUQmdHR5cGU9RGVza3RvcE1ldGEmdG09MzM4NzMyOTg4Jm1hbmFnZWQ9ZmFsc2UmY2FwcGVkPWZhbHNlJmdvc294PW1pZzVObjRmOXFXQjhGbThsQlg0bGNWSENEU05od0QybDhYXzRmd3R5ck43TnlOM0RLTDI1MVRqTU1heDM5NTUxR0xDYWcyb09URmcyV0h3cEwxYTRIUEJiUGVxZWNXQVhqUTdVcWdERjYxNFlXMWJvVzY5bkhaRl9ldUxrdlNXcDFJTTg4X1UxOWJERjE4ZGxOMHlDdk1SZXBrdDZxcnNLbExBN0ZKNjZha0pCcEhCVzZsdUNyWW1lR3dvemo4QU03Y0kxcGZyWEZMa19GZ0ltTmx5VXl5WFhTU1JLNU04YkJOckJrbjdoSHRDU2ZqZ0lFU1VXcUo1dUVncnNJeVYmcHJpY2VTaG93bj0zOTgmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPUxPU0UmbWJsZGVsdGE9MTgwMCZycT1QJnJhdGU9Mzk4LjMxMDAmdGF4ZXNSYXRlPTc1LjY3MDAmZmVlc1JhdGU9MCZmZWVzPTc1LjY3MDAmY3VyPVVTRCZhZHVsdHM9MiZjaGlsZF9ybV9hZ2VzPSZpbkRheT0yNyZvdXREYXk9MjgmcmRleD1SREVYXzUwNTM5MTJhYTQ1YzAwMDVmZTRkNjIxY2UwNDgwZWNlJnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xN2Q5ZWQ2NGMzNjVmZjI5OGJjOTMwMzBjNTQxY2UwMDgmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPWFmZGY5NDRiY2ZjYzRmMjk5MjkwMDdlNjVjZmUyZWRiJnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M19wUVQ=",
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Trip.com",
+                  "provider": "CtripTA",
+                  "specialratetype": null,
+                  "perNight": 398,
+                  "taxesValue": 75
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": false,
+                "isMemberRate": false
+              }
+            },
+            {
+              "priceText": null,
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": null,
+              "isComparisonOffer": false,
+              "provider": "Algotels",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Algotels",
+              "providerLogoUrl": "img2/branding/hotels/algotels.png",
+              "status": "UNAVAILABLE",
+              "merchandiseMessages": [],
+              "data": {
+                "provider": "Splitty",
+                "contentId": 209130391,
+                "clickToken": null,
+                "commerceUrl": null,
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Algotels",
+                  "provider": "Splitty",
+                  "specialratetype": null,
+                  "perNight": null,
+                  "taxesValue": null
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": null,
+                "isMemberRate": null
+              }
+            },
+            {
+              "priceText": null,
+              "taxesAndFeesText": null,
+              "isLowestPrice": false,
+              "canPayInInstallments": false,
+              "strikeThroughText": null,
+              "totalStayText": null,
+              "isComparisonOffer": false,
+              "provider": "Destinia.com",
+              "isSPSingleOffer": false,
+              "providerDisplayName": "Destinia.com",
+              "providerLogoUrl": "img2/branding/hotels/Logo_Destinia_AT.GIF.png",
+              "status": "UNAVAILABLE",
+              "merchandiseMessages": [],
+              "data": {
+                "provider": "Destinia",
+                "contentId": 196298776,
+                "clickToken": null,
+                "commerceUrl": null,
+                "dataAtts": {
+                  "isBookable": null,
+                  "locationId": 14134983,
+                  "vendorName": "Destinia.com",
+                  "provider": "Destinia",
+                  "specialratetype": null,
+                  "perNight": null,
+                  "taxesValue": null
+                },
+                "isSupplierDirect": false,
+                "isIbOffer": false,
+                "roomsRemaining": null,
+                "isMobileRate": null,
+                "isMemberRate": null
+              }
+            }
+          ],
+          "noAvailabilityLink": null,
+          "lowestPrice": "$382",
+          "urgencyAlert": {
+            "label": null,
+            "type": null
+          },
+          "sponsoredListingData": null,
+          "searchParameters": {
+            "travelInfo": {
+              "checkInDate": "2025-09-27",
+              "checkOutDate": "2025-09-28",
+              "usedDefaultDates": false,
+              "rooms": 1,
+              "adults": 2,
+              "childAgesPerRoom": []
+            }
+          }
+        },
+        "locations": [
+          {
+            "locationId": 14134983,
+            "name": "Hotel Birks Montreal",
+            "latitude": 45.5034,
+            "longitude": -73.568756,
+            "url": "/Hotel_Review-g155032-d14134983-Reviews-Hotel_Birks_Montreal-Montreal_Quebec.html",
+            "thumbnail": {
+              "caption": "",
+              "photoSizeDynamic": {
+                "maxHeight": 1229,
+                "maxWidth": 1626,
+                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/40/03/f0/hotel-birks-montreal.jpg?w={width}&h={height}&s=1"
+              }
+            }
+          }
+        ],
+        "reviewSummaryInfo": [
+          {
+            "responseData": {
+              "rating": 4.5,
+              "count": 522
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "prices": [
+    {
+      "field": "HPS_getWebHROffers.priceDisclaimer",
+      "value": "Prices are provided by our partners, and reflect nightly room rates, including any mandatory fees. Taxes not included. Please see our partners for more details.",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hasMemberRateAvailable",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[0].priceText",
+      "value": "$389",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[0].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[0].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[0].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[1].priceText",
+      "value": "$425",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[1].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[1].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[1].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[2].priceText",
+      "value": "$382",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[2].isLowestPrice",
+      "value": true,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[2].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.chevronOffers[2].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[0].priceText",
+      "value": "$425",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[0].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[0].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[0].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[1].priceText",
+      "value": "$443",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[1].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[1].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[1].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[2].priceText",
+      "value": "$464",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[2].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[2].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[2].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[3].priceText",
+      "value": "$386",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[3].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[3].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[3].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[4].priceText",
+      "value": "$425",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[4].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[4].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[4].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[5].priceText",
+      "value": "$380",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[5].isLowestPrice",
+      "value": true,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[5].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[5].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[6].priceText",
+      "value": "$398",
+      "type": "str"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[6].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[6].data.isMobileRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[6].data.isMemberRate",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[7].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.hiddenOffers[8].isLowestPrice",
+      "value": false,
+      "type": "bool"
+    },
+    {
+      "field": "HPS_getWebHROffers.lowestPrice",
+      "value": "$382",
+      "type": "str"
+    }
+  ],
+  "hotel_info": {
+    "businessAdvantageData": [
+      null
+    ]
+  },
+  "offers": {
+    "HPS_getWebHROffers": {
+      "complete": true,
+      "priceDisclaimer": "Prices are provided by our partners, and reflect nightly room rates, including any mandatory fees. Taxes not included. Please see our partners for more details.",
+      "hasMemberRateAvailable": false,
+      "providerNameWhoHasMemberRate": null,
+      "listingKey": "54bc1ab1-a42f-4b3d-a2d5-14a5045e6c29",
+      "additionalDisclaimer": null,
+      "chevronOffers": [
+        {
+          "priceText": "$389",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$447",
+          "isComparisonOffer": false,
+          "provider": "Booking.com",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Booking.com",
+          "providerLogoUrl": "img2/branding/hotels/Booking_Com_v2_384x164_Blue.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [],
+          "data": {
+            "provider": "BookingCom",
+            "contentId": 128335027,
+            "clickToken": "LzW4217ii9SCyfia0tEn1UXvmmoKXk0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1U0zq1U0iit1K0zL1UX0tSci13UkX0Hpn9VI1AKmKX30CEJC91U0nEJC91U0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1ZMq8gNRI7GSvbqInVTRyxXCqixbrWqQyq8qizzWGmXcxE5KxdXVNqnnezzZGmzsteUxEqQEyZRxbgUGr9abZNc7xMCcxM9bbRTSxGx5rsZx5ochbQMq8vwk2zsx2bCaTuKnq8A2UrrbwNVSzzNZusxMGzCHWEXqIqIAJKcqIDQUDpSxXzCpQx2Nqna2EgWix2qQuqihfZZ2xXzz9zClM7vhQxMqQNGxXgKzCxMoW9zCqQafqiAalHHDkwD77zzRzzb2gMR3O9xXwxXozCq8bvqQzCmzCDo2xMMgxXxE7qnVqIRqnx5zsidxGknplI3ttx5gxXqQXCCzCTrQRRxbRaqnpvzCURVwKb02ESnVhGiuC1mvA02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1AKK0EqQ1w0EJIV1mvvYkUKK0IJxEVteJIV1ovYXXKK0TVVteJIV1K0TVVt1ovYXXKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQXHMnmXooTvVKJH3JAnkkTvnHUvKHMAV30Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UoA33JkmXdHv3ddonXVKAH3AdnnXJKTdn0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91nmdmXdAdTvXHdXUMv3JonHkHdHmUKTvV0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "bkJDXy9Db21tZXJjZT9wPUJvb2tpbmdDb20mc3JjPTEyODMzNTAyNyZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9MSZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NjE3MiZidWNrZXQ9OTAzMDI2Jm5yYW5rPTEmY3Jhbms9MSZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9TmRZeU9MdEJoaThBWGNlZkxnUW5WS1QtcWdZVkctaDMybHhIMFcyZU9GY1JHTmgzRXNSMXhxcmdOTEt5MWhUa21BTk9sQkRubERrQUFMZmlVWlR2Tlo1bFNBX2RZOFA3cEVKQW5tZncwY1k5cDFUVEFQT2VpR09Od3ZEaHpiLXIyWFg5YTBsWE1fMU11aVF6dV9KT0ZtcHJ5LW9KcXdWU0NOTnBRR2t6SWRCOFNfRHFPaFF5MHpENS1renFtQ1Y5bUliYk03UE1CQkdMR0FweWRMNmprUVBRNXpZQThxejN6TTVwRGR5UXhCRmVYTEZaRW80VTdjdUl0NnNzWnlRcTJubnpmVF9MTEtMbUZ1OHoxTGVQMEEmcHJpY2VTaG93bj0zODkmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPUxPU0UmbWJsZGVsdGE9OTAwJnJxPVAmcmF0ZT0zODguNzEwMCZ0YXhlc1JhdGU9NTguMjIwMCZmZWVzUmF0ZT0wJmZlZXM9NTguMjIwMCZjdXI9VVNEJmFkdWx0cz0yJmNoaWxkX3JtX2FnZXM9JmluRGF5PTI3Jm91dERheT0yOCZyZGV4PVJERVhfMmJkYzMyNTVmOGUwYWI2YTljNzdmOGNiMTgwYmQ5ZTYmcm9vbXM9MSZpbk1vbnRoPTkmaW5ZZWFyPTIwMjUmb3V0TW9udGg9OSZvdXRZZWFyPTIwMjUmYXVpZD00MWIxZGRkZi03OTFiLTRlYWYtODkyMy03ZTVmOGUwNjVkNjYmZGVmX2Q9ZmFsc2UmYmxkPUxfMSxEXzIsR18yLFdfNixVXzAsQ18yNTA5MjcsVF8xMyZiaD10cnVlJmNzPTE1OTY2YTczMjRiODY0NDVjMmUwOWI2OTRjYzJhMGY0YyZpaz00MjQ2YjE5NDA5Nzc0NTM4YWQxMzA5ZGY5ZGUwMjJlNyZhb2s9YzM0MzI0OTRmODJiNDIxZDg2YTVjYjdiNGIzMTBmOGUmdHA9SFJfRGlyZWN0Q29tbWVyY2UmcGFnZUxvY0lkPTE0MTM0OTgzX2FOZA==",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Booking.com",
+              "provider": "BookingCom",
+              "specialratetype": null,
+              "perNight": 388,
+              "taxesValue": 58
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$425",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$506",
+          "isComparisonOffer": false,
+          "provider": "Expedia.ca",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Expedia.ca",
+          "providerLogoUrl": "img2/branding/hotels/expedia_logo_384164.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "Fully refundable before Fri, Sep 26",
+              "type": "FREE_CANCELLATION"
+            },
+            {
+              "message": "No prepayment needed",
+              "type": "NO_PREPAYMENT"
+            },
+            {
+              "message": "Earn rewards for every stay",
+              "type": "DEFAULT"
+            }
+          ],
+          "data": {
+            "provider": "Expedia",
+            "contentId": 127177917,
+            "clickToken": "LzW421qZ0tEn1UXkUkkAUk0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1X0zq1U0iit1K0zL1UX0tSci1okkU0Hpn9VI1AAKvXA0CEJC91X0nEJC91X0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1GCETfqQJACzCsodhwzCzzy2CsGSSCq8WvIMtHzsKXSyxXiAlvrOprbtGOebx27V9IgDqQZNzCrx2xXxbCSe7oErR3Zx2mu5f3mgsbZdlTdDVyT93bnyKNrbhEmIh9Jmx5xMN9x2ixGkzslx2kKioazsqnxXW5Qdx5hmivq8qQzzR5x2dKK3q8xGzzZHG2qnxdT7DKoHg77qIANu7WpvVbQJfwXmqIqImoxGzszCeGIIKiruNCxEXgpJy9Ka5VpsRxbHcrR5DHx5bgiqnIX5w7whCkfGIx2x5ZdxXnRxMyrxdTaEtgpvG9yQxXeybdxMrSSknzCJxXxGwq8dNxdzCpq8G79elqi5fbqiDx2K02ESnVhGiuC1dXo02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1doKK0EqQ1w0EJIV1dXoYXoKK0IJxEVteJIV1vKYkvAd0TVVteJIV1KYKKKK0TVVt1vKYkvAd0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQmKkkAToKAVUv3XXMvM3AnmAHv3XmUnvm0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1U3UKnvkHUvXKmV3VJKTMokKmmdmHkX3kV0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91n3JAnoHkJmUAddVvJJ3HdoMTKUoAJXod0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "QjlqXy9Db21tZXJjZT9wPUV4cGVkaWEmc3JjPTEyNzE3NzkxNyZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9MiZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NTc3MSZidWNrZXQ9OTkwODI5Jm5yYW5rPTImY3Jhbms9MiZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9aG5yZkNxYTluenY1NFNQekdncG52aGlpblktOHRkc2JFMDJpZ1FvOUk4VGp1VEFzaGpSQUpCZWt0eU1xTk96VEpRS25pUkI1clRMNk5KM3dIQzYzeXZBTjRJZjRNZWdmazZBY2cwT1RBU3IzdFNrYTNaRE9rSm9VN0VJSjcwbzVtRUZRLUhfNFpTM284WXFHTEhKNDAwNllVR05iaHBGV2ZCTTA1YnlCQlg5T3dCLXU4ZUFfYUNQMjNYWDM1VUV6Umh0dDBvVHdPbngyeXVhZ2swbUhldXZMS2JsVExITWJaQXlvRnQySFBCUFNuN0NodEpaTjRRY0xEZ1RXZm1yc3l1OGhrZ19RUmdBNERUaWk3Y3phUVVQWTRPV3p1WWhCa1JJVkhDQVZNSjAmcHJpY2VTaG93bj00MjUmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPUxPU0UmbWJsZGVsdGE9NDUwMCZycT1QJnJhdGU9NDI1LjI1MDAmdGF4ZXNSYXRlPTgwLjc4OTQmZmVlc1JhdGU9MC4wMDAwJmZlZXM9ODAuNzg5NCZjdXI9VVNEJmFkdWx0cz0yJmNoaWxkX3JtX2FnZXM9JmluRGF5PTI3Jm91dERheT0yOCZyZGV4PVJERVhfMzA3NzlmNTA5ZTE4NjIyZDhkNjljMzliODYyMzFjODMmcm9vbXM9MSZpbk1vbnRoPTkmaW5ZZWFyPTIwMjUmb3V0TW9udGg9OSZvdXRZZWFyPTIwMjUmYXVpZD00MWIxZGRkZi03OTFiLTRlYWYtODkyMy03ZTVmOGUwNjVkNjYmZGVmX2Q9ZmFsc2UmYmxkPUxfMSxEXzIsR18yLFdfNixVXzAsQ18yNTA5MjcsVF8xMyZiaD10cnVlJmNzPTE2MTBjODdiMTgyMDNlNmVhMGZkNTcwMzM0M2I3MjY3ZSZpaz00MjQ2YjE5NDA5Nzc0NTM4YWQxMzA5ZGY5ZGUwMjJlNyZhb2s9YzZhOWM1YjdhMzE5NDRlOGFhNmI0NWRmMDE1OWEyNTQmdHA9SFJfRGlyZWN0Q29tbWVyY2UmcGFnZUxvY0lkPTE0MTM0OTgzX0Jzeg==",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Expedia.ca",
+              "provider": "Expedia",
+              "specialratetype": null,
+              "perNight": 425,
+              "taxesValue": 80
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": 1,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$382",
+          "taxesAndFeesText": null,
+          "isLowestPrice": true,
+          "canPayInInstallments": false,
+          "strikeThroughText": "$464",
+          "totalStayText": "$455",
+          "isComparisonOffer": false,
+          "provider": "Vio.com",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Vio.com",
+          "providerLogoUrl": "img2/branding/hotels/Vio_com.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "Fully refundable before Fri, Sep 26",
+              "type": "FREE_CANCELLATION"
+            },
+            {
+              "message": "No prepayment needed",
+              "type": "NO_PREPAYMENT"
+            }
+          ],
+          "data": {
+            "provider": "Vio",
+            "contentId": 240957108,
+            "clickToken": "LzW421qiSi0tEn1XdKAokUKv0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1m0zq1U0iit1K0zL1UX0tSci1dk3mk0Hpn9VI1AAkdo30CEJC91A0nEJC91A0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1ixbxdDXwCIkxXmxEXNJx2OMrVrOIezsKe3exXDqnQzCNrZqimitxMEsR3HWHiIxXNq8vIx2MWIabexEZbnIkSzzAzzzsvR3HqIkrWJOpRMtA3hoHxMwgvfWpTxbhCEReUzCyiU3qivSKx2ahwKXzsTXWxGcoXxE9IsZQyNqivqIxEqnErqIVHasRxEu5grEJqQzzwpg3qQyzzxbx2l2Ex23QxXCkxdxdzz9yUfAqQbqIMlayqnGKq8NUeUqIx5T7JqQqi2XQdCDqnwmeVfxXhzCqIEvZR7xGSccItJx5QK3SaxEcqnHbq8qihOzzSzsynOQfZu3q8DIx5qnTkKWQTzCCdxXVxEGb5zzXgzssEtczCJARcxbgb02ESnVhGiuC1mvX02a17wqn0GJn1bqiblRb7Rzs0aHc1Dzszsr0aHcMVcIJ1XKK0EqQ1w0EJIV1mvXYUmKK0IJxEVteJIV1kXY3KKK0TVVteJIV1KYKKKK0TVVt1kXY3KKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQ3oJnTXdKHVkJXV3HdT3AdKnoTAKdKkJU0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UdoovXM3T3nvAMVmUTJMVKM3KXUdndVUn0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91K3HmndVJUKokdoM3vnUAMvVXMKdTTdnH0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "bTQ2Xy9Db21tZXJjZT9wPVZpbyZzcmM9MjQwOTU3MTA4Jmdlbz0xNDEzNDk4MyZmcm9tPUhvdGVsRGF0ZVNlYXJjaF9Ib3RlbF9SZXZpZXcmc2xvdD0zJm1hdGNoSUQ9MSZvb3M9MCZjbnQ9MTImc2lsbz00NzYzNyZidWNrZXQ9OTk3NDU2Jm5yYW5rPTkmY3Jhbms9OSZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9b0tXTTJQbnQ3UTN4Mk9hSmpkVGVUanRSRTBSNlJRTUZfek9UTlYzb3NEcnZMNmItYm90UU9ZOHRKZC10bUFSeE5BY3Q3aUc5R0U4TDZiWDdULWFqdUxkczk2UzViRFB5OEMtdWZLU25yTFIxemdvMTZWOGkwSm1TUDAyRWYyLVVsNTJ4a3R2Tl9nT1Y4WHhGclRYZWJtdkx4d0h5VHJhcUdQdXk2cWdHS0pJcHJKNl9RbjdXV0drZzFDOXFBWGRJbWdGaDBZTzFSMVhaZkJhcVZwMl80bk1GUDNSZUNRU3pYcjhOTEJVaWxsdHNhWl8wNmlteGxGYkFZVlNqR2lFZ2NqX0NOdzZZTXRaRmY3MC1fZnpuNFFleGhBSEcyeUV2cnNsemE5TGxLeUEmcHJpY2VTaG93bj0zODImcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPU1FRVQmbWJsZGVsdGE9MjAwJnJxPVAmcmF0ZT0zODIuMTMwMCZ0YXhlc1JhdGU9NzIuNjAwMCZmZWVzUmF0ZT0wLjAwMDAmZmVlcz03Mi42MDAwJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF82NWFjZjI0MGJlN2EyZTZiNGY2OTQwYzVmOTA0MDdhMSZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MTQ1NTgyZDZmNmM4OWRlMzFmYWRlMGQ2MDIxNGM0ZTFjJmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz0wNmIzYzRlYTEwNTc0NWQ2OGMxOWQ4ZTJkMDRmZjRjYiZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfa2Zl",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Vio.com",
+              "provider": "Vio",
+              "specialratetype": null,
+              "perNight": 382,
+              "taxesValue": 72
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        }
+      ],
+      "textLinkOffers": [],
+      "hiddenOffers": [
+        {
+          "priceText": "$425",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$505",
+          "isComparisonOffer": false,
+          "provider": "Hotels.com",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Hotels.com",
+          "providerLogoUrl": "img2/branding/hotels/Tripadvisor Hotels.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "Fully refundable before Fri, Sep 26",
+              "type": "FREE_CANCELLATION"
+            },
+            {
+              "message": "No prepayment needed",
+              "type": "NO_PREPAYMENT"
+            },
+            {
+              "message": "Members earn reward nights",
+              "type": "DEFAULT"
+            }
+          ],
+          "data": {
+            "provider": "HotelsCom2",
+            "contentId": 125435702,
+            "clickToken": "LzW421z1fiaX0tEn1UXodmokKX0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1d0zq1U0iit1K0zL1UX0tSci13KdX0Hpn9VI1vdXUAX0CEJC91m0nEJC91m0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1IEpV0nJ22VM1TJctV0yitixE15lX2N5DNv5xbTCxMx27VEW3DoqitxGUAvAdb3xGQWx5yqiG2Hc3qQazsJX3TCUbuexdxMqnDux2ix5xExMghtxMyOqQl92Dfg7pUAzzmqQnyxXq8ZxXxMx2JRaSeOdgxEyheUevdzCZxXtzCVixbvq8sKiGxGS2xGoawSOsJHRI9xMCCvnyTx5scHNqnx2hqInrNkxdzCxMzsHXxGipK3U3Ipg2iIkzzrrezCNEexMsxGWayxbxGxbwZNxXxEgxGsmqIeNMXKfNxMxbn9qQcfWxMczCcqQUhxGJuIqQUIayGtq8tXa3AK7fergOxMxXqiMtlx2xExMx5NzzXkqQdpzzzC22dHG7zCqQ5GOizCJMXJ9xbKxX7xETRhsan02ESnVhGiuC1dXo02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1doKK0EqQ1w0EJIV1dXdYoAKK0IJxEVteJIV1vKY33KK0TVVteJIV1KYKKKK0TVVt1vKY33KK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQoMJvTKUTTJJUJdUJUmUAmKAMmJoTJJXU0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UvJHUKKTkmKVokvdUmMHndTVAvUMnVokJ0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji913mmnvJAddXoUddKdAvnUkUmATkmJXTvT0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "TVhhXy9Db21tZXJjZT9wPUhvdGVsc0NvbTImc3JjPTEyNTQzNTcwMiZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9NCZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NjA0MiZidWNrZXQ9ODQyMTkyJm5yYW5rPTMmY3Jhbms9MyZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD10cnVlJmNhcHBlZD1mYWxzZSZnb3NveD1ISTJwT0hNTzhIS2ZuREpCZXItNk01VnNVMTk4OTRBNlVfLVpnVmhwYmw2cW1FYTI2Zm4xQXdSV0RGTXdKb1p4RHlTc0RnanFJa3BNQ3lCdTE5RzNxY2dRWU5RREphTG1pUmo0eXhnU1IxUjg0ek5Rc3plb0s4WXYwb2hVaXBVNW1QaWp2YWJMdGtEbm44Y2dmWnZsYk9GSlNYY1RPN1d6REViMlVvdTA2MTZ0dXlwb3Q3R1RUUnpPclJEdlUtbWdLVUtQTk9ReHlVdjNYUk9kMjBDT0RLY2txbEMtRGx6bHExU1Vhd3RxMXRtZ2hzWXMybTY5MEJDUlR5akRRVmRzSUp4RFpPRzI3cTR1R3pwcDRiaEJ6cUhoam96YWQyYWtLMFFCeGZMU3ZtYyZwcmljZVNob3duPTQyNSZwbT1CUEYmaGFjPUFWQUlMQUJMRSZtYmw9TE9TRSZtYmxkZWx0YT00NTAwJnJxPVAmcmF0ZT00MjQuNTkwMCZ0YXhlc1JhdGU9ODAuNjYwMCZmZWVzUmF0ZT0wLjAwMDAmZmVlcz04MC42NjAwJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF81ZGE4ZjAxZmZhYTFhNDFhMTMxOTMwOWQzYTVmYWEyMSZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MThhYjEwMGY3MzBlNTc4NDEzZGJjNGZlOTgxZGNlNTdhJmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz02MzNjOGE5NDQyNTE0NDA0OThjMTcxMzlmNzNhMmY4ZiZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfQXFj",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Hotels.com",
+              "provider": "HotelsCom2",
+              "specialratetype": null,
+              "perNight": 424,
+              "taxesValue": 80
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": 1,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$443",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$527",
+          "isComparisonOffer": false,
+          "provider": "Official Hotel",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Official Hotel",
+          "providerLogoUrl": "img2/branding/hotels/official_hotel_site_2025_384164.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "Fully refundable before Sat, Sep 27",
+              "type": "FREE_CANCELLATION"
+            },
+            {
+              "message": "No prepayment needed",
+              "type": "NO_PREPAYMENT"
+            }
+          ],
+          "data": {
+            "provider": "TravelClickCPA",
+            "contentId": 170230794,
+            "clickToken": "LzW421zufcSn9fwb0tEn1UkKXmKkAd0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1o0zq1U0iit1K0zL1UX0tSci1mokvm0Hpn9VI1Amd3mk0CEJC91d0nEJC91d0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1IEpV0nJ22VM1TJctV0yitixE1xXZhQQfhbxdJTxXxXOaqnx23qIqQxXx5XUC3bTzzEzzGpx2k5uhuDqnq8QzsMs5JVbxGuglgGVtcknUqQxMNacANT3XfJzCxbSazC2kzzIxGf5SKbhxM2lHHTEdQ5vxEWvy9bOzsxGIoJsIq8wWxXq83bqIqilVyeGMAvuNRuCnZuu2vauhi7q8f7UOqn3xMx5xMqQSATAIxGoqI92x2EbxEzCtRvx5XDDq8kN7SfpKMx5Oq8oxdzzVdqndUxMgxdqI9zsGqIxEroAyx27nqiqiTwRMvHcx2zsyCxMqQq8Xq8SShxEOqixbzzRJIUxGkfWvAgQgHzzaTANi2tx5exduzzqnxGixEiGl5lQuOnNaxMRxdeqIWAwsmvoWzs5tq8xX7xEItGR3kx2nXshohty02ESnVhGiuC1ddm02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ13mKK0EqQ1w0EJIV1ddmYX3KK0IJxEVteJIV1vdYXXKX0TVVteJIV1K0TVVt1vdYXXKX0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQXJXMMmHnUVdJvUAVomdUUMHKJMUAMmmH0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UJ3dJoAJVTHXJvvAUodddnTVkTVoUnmnH0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91JM3XJknJm3dndHAnHoXo3VK3nkvAvUvU0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "dmpqXy9Db21tZXJjZT9wPVRyYXZlbENsaWNrQ1BBJnNyYz0xNzAyMzA3OTQmZ2VvPTE0MTM0OTgzJmZyb209SG90ZWxEYXRlU2VhcmNoX0hvdGVsX1JldmlldyZzbG90PTUmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTM1NzgzJmJ1Y2tldD05MzQ2MzcmbnJhbms9NCZjcmFuaz00JmNsdD1EJnR0eXBlPURlc2t0b3BNZXRhJnRtPTMzODczMjk4OCZtYW5hZ2VkPXRydWUmY2FwcGVkPWZhbHNlJmdvc294PVFOU19fQ1NBV2FmUVFqbUZKNlhxUVoyMW42QWZHckdodUo3SHdTd01GWV9FZHZIYWVBVXd5SXloZXNsN2MxcURPbWw5T2Y2MkNhektpbXpwN0d0VUNIaTBBU0RwSWJiZnI0X0g4eC04Z2tBakVVdDVhdnRZUC1RWTZBWFZJZWdSaGQ5OHdPTHduY053d3A4bXdTb0JZQ0IxakY2RFpEcWk5Zjl0VTVYa3BKckF4enNMOFoyTU1ZN09CaUN1MGRaalk1V0dlNEY0MUR5V1hrRWhYeFQ1OWdKQmNWVmZQTGQ4YmxKRWduRHFZMllpaVN4alZLR0xhdDFVN0MtODl5X3liR21mOU9vcHNaUld3R0ZVb3hvaElISV93amNPbURMV1JYLTlQdjM4NS1FSHNZUUJ4dHNoTDY3SmMydlM1U3NnJnByaWNlU2hvd249NDQzJnBtPUJQRiZoYWM9QVZBSUxBQkxFJm1ibD1MT1NFJm1ibGRlbHRhPTYzMDAmcnE9UCZyYXRlPTQ0My4yNjAwJnRheGVzUmF0ZT04NC4yMjAyJmZlZXNSYXRlPTAmZmVlcz04NC4yMjAyJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF8yYTJkZDNiYzFlNGE4MTllNTM0MTFkYjBhZDE5ZDMzYiZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MWE2NGE1OWFlZmIyYTg4OTE1NDQ0Y2ZlN2ZlNTFjM2NiJmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz1hZDYyYTdjYTM2NGM0YjljYjUyNTZlMDZjNzg5ODE4MSZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfOFFS",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Official Hotel",
+              "provider": "TravelClickCPA",
+              "specialratetype": null,
+              "perNight": 443,
+              "taxesValue": 84
+            },
+            "isSupplierDirect": true,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$464",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$480",
+          "isComparisonOffer": false,
+          "provider": "StayForLong",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "StayForLong",
+          "providerLogoUrl": "img2/branding/hotels/logo-sfl-pink-tripadvisor.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [],
+          "data": {
+            "provider": "StayForLong",
+            "contentId": 148110628,
+            "clickToken": "LzW421hIJgqniERiCy0tEn1UdvUUK3Xv0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK130zq1U0iit1K0zL1UX0tSci1d3dm30Hpn9VI1UKUvUk30CEJC91o0nEJC91o0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1IEpV0nJ22VM1TJctV0yitixE1AxbzsqnzsqnczCUlQxEJ5ssAeOgAMzsxXfaqnggAx2hxXKrx5HzsRqieoNxGzCyHOgcbqIqitt2vv92CAzsAqiUzzshhAba3sIgfEQuwqnJUuk5lw5pybxMolpQ7aSrxbqQq8r2xXDVxMRiigxGzCIqIhioAtqQxGxXIftxdqnzzGbzCax2knHvVZObZx5t72zsbAcWiDpypMxGRx2daErlxdWqnMMCAA3dxMHp3yqISRsOOx2zsGaXezsbE3wxEIfMQRvxXfqix2bktxMuqnyhqQKRswJIGqnyT2qIhxEExdqQNsx5kqiADKpxXxdnuxMUqQS77bvHulsJyxEruxdqi3VzzzzWAmuzsVqnWzCr7Ol3mGsgHhySnzzJkIS2x2f2QIAyUUqQTx5qQx2K02ESnVhGiuC1d3d02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1vdKK0EqQ1w0EJIV1d3dYUkKK0IJxEVteJIV1U3YXdov0TVVteJIV1K0TVVt1U3YXdov0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQkMdnmdHXJkVHTAUUkAKKoKVomvHUK3k0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1U3nHUA3kVKKmvUmAJJoAkUkmVvVoTHkm30S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91KToTvvdMUdH3dVdkvAvod3TVVdXoKnMH0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "UW94Xy9Db21tZXJjZT9wPVN0YXlGb3JMb25nJnNyYz0xNDgxMTA2MjgmZ2VvPTE0MTM0OTgzJmZyb209SG90ZWxEYXRlU2VhcmNoX0hvdGVsX1JldmlldyZzbG90PTYmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTQ2NDM2JmJ1Y2tldD0xMDE4MTc2Jm5yYW5rPTUmY3Jhbms9NSZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD10cnVlJmNhcHBlZD1mYWxzZSZnb3NveD05S0VGRUZsejFJX3hhSHZ2OVJqeTlkRVFDbUZ5eTlKU1EwVFpiRUxWUjVPVXpnYmp5bEFYVnNzcDg4a3BuOUU5VjFHdlNTOUFtNnZ0eUNyX3dQRmExdzdISVBIdWdBRDVJdV9CbWlUS3FZVHBRTWVETG9veVV6dFhTbzU5c3FVUXRDc1dGR2hBem1KN2NiOGVOakFOWnNCcEVBOWwtb011Z3VkVUxKNG1yVElXLUZkZG45OTY0RGJ1NmdYaUx2ampKRWhtMlJFQXI2UHh0Q2RfTDhRQ1ZKQTdzRHdGZ1NxMEx2UGF0aEZnZnBYU3hyV3FPdlo3VjlNMHVRV2N3RDFxaUJCQThid0l2YWd4VHdXVjZlR0ctOTN3RWVGLXpUQmpJNjNodnliU2dpY0dhN3RpcEpDcF90OWcxMXFmWnFKMCZwcmljZVNob3duPTQ2NCZwbT1CUEYmaGFjPUFWQUlMQUJMRSZtYmw9TE9TRSZtYmxkZWx0YT04NDAwJnJxPVAmcmF0ZT00NjQuMTcwMCZ0YXhlc1JhdGU9MTYuMjQ1OCZmZWVzUmF0ZT0wJmZlZXM9MTYuMjQ1OCZjdXI9VVNEJmFkdWx0cz0yJmNoaWxkX3JtX2FnZXM9JmluRGF5PTI3Jm91dERheT0yOCZyZGV4PVJERVhfN2Q0YzM0YjJhN2ViZjkxMTc5MDA1MGU1MzhiMTA2NyZyb29tcz0xJmluTW9udGg9OSZpblllYXI9MjAyNSZvdXRNb250aD05Jm91dFllYXI9MjAyNSZhdWlkPTQxYjFkZGRmLTc5MWItNGVhZi04OTIzLTdlNWY4ZTA2NWQ2NiZkZWZfZD1mYWxzZSZibGQ9TF8xLERfMixHXzIsV182LFVfMCxDXzI1MDkyNyxUXzEzJmJoPXRydWUmY3M9MTZjYjE5NjdlMDAzODEzOWFhNTk3MTczZThlNWZiNzM2JmlrPTQyNDZiMTk0MDk3NzQ1MzhhZDEzMDlkZjlkZTAyMmU3JmFvaz0wZjVmODg0ZDE0YjY0ZTQ3ODk4NTQ2ZmVlNDI1MGNkYiZ0cD1IUl9EaXJlY3RDb21tZXJjZSZwYWdlTG9jSWQ9MTQxMzQ5ODNfbTF0",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "StayForLong",
+              "provider": "StayForLong",
+              "specialratetype": null,
+              "perNight": 464,
+              "taxesValue": 16
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$386",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$459",
+          "isComparisonOffer": false,
+          "provider": "Skyscanner",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Skyscanner",
+          "providerLogoUrl": "img2/branding/hotels/Skyscanner 384x164.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [],
+          "data": {
+            "provider": "Skyscanner",
+            "contentId": 247259536,
+            "clickToken": "LzW421h9gtnJCCVE0tEn1XdkXoAom30zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1k0zq1U0iit1K0zL1UX0tSci1dvdkm0Hpn9VI1UKKXAAA0CEJC9130nEJC9130ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1DZRCNOiix2Av53QGUITx2qIfEwrzzXxEszzDxdcHx5x22x2ytEMUVEDg2a9kNxdHnRrszCxErxEJbvktMxMfWZxbfM3i3xXq8nto5xbqinDn77xbJzseH5D7uS7vDxdpq8HTnIaxENGAzCG92xdstQUvqnk57xbgxGeRqI7ZMzsQKufzshzzx5qin7zsqnMqixdephVbWkzzekxXesxXeeo22SH32q8qiuiWGuRkSeSHq8Mx5zzhHO9icGlx5x5xXHQqnTWtzCNDx5NsOHuxEx5AWxdEtlqnxXmUbgfGXoUxMIwqIexb3x5zCpTuUtqIkxMqIgEmq8qQy9viUKkxMaGqQzsqQ5b02ESnVhGiuC1mv302a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ13KK0EqQ1w0EJIV1mv3YKKKK0IJxEVteJIV1kXY3mKK0TVVteJIV1K0TVVt1kXY3mKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQHAkVUJvvHTXUnVAJToTXKKJHooHHHkV0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UXK3AVAoUmAKknUXUkAMkkJMmdvmdmHno0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91KdvUooTAM3dAdkoAHXKHKdJH3ToVdXod0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "YjJoXy9Db21tZXJjZT9wPVNreXNjYW5uZXImc3JjPTI0NzI1OTUzNiZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9NyZtYXRjaElEPTEmb29zPTAmY250PTEyJnNpbG89NDg0NzMmYnVja2V0PTEwMDI5OTkmbnJhbms9NiZjcmFuaz02JmNsdD1EJnR0eXBlPURlc2t0b3BNZXRhJnRtPTMzODczMjk4OCZtYW5hZ2VkPWZhbHNlJmNhcHBlZD1mYWxzZSZnb3NveD1NTkxuT2pvb0o5OEg2X2gxdGZKWENyUFRHMnh2R01XbGJaSnBKZ3NyZDFlck15cG1rN09XYmNMVHZ6eFR4YUE4N3NkREMtTktDZDZvNlFZY3M1SEtWY01jQkJLYUVSYkhNQndpQjhNV3VZYmZjdG14T2g5emhrcFd2c18xOEY3SEJLeVVSTFhCTmRFXzB3Q0VTR1pWY0JFRmRWV1J1U2VBLTdHUjdRUnZRUlI1cHBpYjZwWVZ3by1od0w3aVJpYllkWkdTYmprb2xoSVpaUWJfRmYtc3pPTVpPdmpid3haOS1XcnNJRlEzMUF5Q2gyNTFEdFBYUks2Wnp1Zncxc1g3RFh5cjNZcWdrOG8xMDdEbWhxRXFIQSZwcmljZVNob3duPTM4NiZwbT1CUEYmaGFjPUFWQUlMQUJMRSZtYmw9TE9TRSZtYmxkZWx0YT02MDAmcnE9UCZyYXRlPTM4Ni4wMDAwJnRheGVzUmF0ZT03Mi42MzAwJmZlZXNSYXRlPTAmZmVlcz03Mi42MzAwJmN1cj1VU0QmYWR1bHRzPTImY2hpbGRfcm1fYWdlcz0maW5EYXk9Mjcmb3V0RGF5PTI4JnJkZXg9UkRFWF9iOTdlMWE4OGJmMjFjZTlhZjVmMjAwYWI1NWJiYjdlJnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xMjA2OWU5NTEzOTA3YzEyMTc5ZDc3YWQzNDgzNDNiYzUmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPTA0ODE1NWY5ZDY0OTQ3NTliMjBiMDRhYjZmNWU0MjU0JnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M182OHU=",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Skyscanner",
+              "provider": "Skyscanner",
+              "specialratetype": null,
+              "perNight": 386,
+              "taxesValue": 72
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$425",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$506",
+          "isComparisonOffer": false,
+          "provider": "Priceline",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Priceline",
+          "providerLogoUrl": "img2/branding/hotels/Priceline_Blue.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "No prepayment needed",
+              "type": "NO_PREPAYMENT"
+            },
+            {
+              "message": "Go to your Happy Price",
+              "type": "DEFAULT"
+            }
+          ],
+          "data": {
+            "provider": "Priceline",
+            "contentId": 175589724,
+            "clickToken": "LzW421wESnVcSCV0tEn1UkoovAkXd0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1v0zq1U0iit1K0zL1UX0tSci1UkmkA0Hpn9VI1UKUXdov0CEJC91k0nEJC91k0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1MfqnSx5fAxXEraDaqneuxERiWWQavxGExGrIbsEzChzskzsMqIq8xMIIqiqnkTNGCDrQAphwMxbGAizziv9tx2cn9WUexEQUlCq8sIax5qITx5MzsThSXcx2bgq8cJzC5AXqIqnAQdyxXlOxXWSwMxGhTIHxbnq8gZGzsI7fqnNs5me9cxXnnrxEO992WVXqQqnxGTOx2lfHdgxdkxXvcvWpaUsycHzCxbxEH2axGmxXqio3xXqncJDcQqiWhxdCkk7Qrtq8q8sskaqilVtvq8hUzzqiGQfqQ2lq8Rqiq8rsxX5x2VwexdxdqIaGCUE3JVOxGirxXrKKqi7mEqIDzskkzswmZEMAukzzxXx2HxEaezsMyTxE2q8cR7JtxMOXq89hhOQQAfssexXvN3RGW02ESnVhGiuC1dXo02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1doKK0EqQ1w0EJIV1dXdYkvKK0IJxEVteJIV1vKYkmKK0TVVteJIV1KYKKKK0TVVt1vKYkmKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQUKUMVnUnn33HXJkAUXmJooMVUJUvATAk0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UmTAvVKHHJVXJmmUXmoJTkJJ3TMvAHUJM0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91XMMdvHAkdHJXdHmVHvkXUVUmnmdVVdmJ0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "Q3JlXy9Db21tZXJjZT9wPVByaWNlbGluZSZzcmM9MTc1NTg5NzI0Jmdlbz0xNDEzNDk4MyZmcm9tPUhvdGVsRGF0ZVNlYXJjaF9Ib3RlbF9SZXZpZXcmc2xvdD04Jm1hdGNoSUQ9MSZvb3M9MCZjbnQ9MTImc2lsbz0xNzM3OSZidWNrZXQ9MTAxMjQ1OCZucmFuaz03JmNyYW5rPTcmY2x0PUQmdHR5cGU9RGVza3RvcE1ldGEmdG09MzM4NzMyOTg4Jm1hbmFnZWQ9ZmFsc2UmY2FwcGVkPWZhbHNlJmdvc294PWRDRmlaQzlRclRtTW1GUnd4TG8tLV9tOFVyVVR0QXZyelNFN0VkWFlEdHRWRjdmT2huTVRfOXVTUGRLaDlvR284a3NKbGNrLTFSeF8xSW5ZdnRtWlhmWmRFZlNpMmxKQXlZbGF6SDkyWEY5XzRnUUlqUS1pUGRVU2Z0YktjWXlOaEV0QkNGT3ZIM1JrbFFjY1R4amtrcC1lMnFGVWZqSklDYjR5VzdROGw4LXVtMXZnbGJ6S3hicG1VM1FWNTZRRmxhTWxfVi1TV243N0JfVHNZWXZ2N21WSWVzOFlTMUdWaF9DcXBJWUxWWVR2UUhKZVBSV1dYbWhuMXI2YWVqVW9UUVQwMFZCM3JYTUU3N0VQM05yZDl3N0dRSmJ4bVJFZGdmeHBZbExCYXNEajJZa1NTal9fOUN2dlJROE82TGgtJnByaWNlU2hvd249NDI1JnBtPUJQRiZoYWM9QVZBSUxBQkxFJm1ibD1MT1NFJm1ibGRlbHRhPTQ1MDAmcnE9UCZyYXRlPTQyNC43ODAwJnRheGVzUmF0ZT04MC43MzAwJmZlZXNSYXRlPTAuMDAwMCZmZWVzPTgwLjczMDAmY3VyPVVTRCZhZHVsdHM9MiZjaGlsZF9ybV9hZ2VzPSZpbkRheT0yNyZvdXREYXk9MjgmcmRleD1SREVYXzEwMWRlYzFjYzY2YjJhNzkxMjNhNTVkZTFhMTg5Zjk3JnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xM2Y5OGUwYmJhZTJhMzMxMjM1YWY3YWE2ZmQ4OWIxYWQmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPTJkZDQ4Yjk3NGJhMjRiM2ViODcyMWUxM2MzNGVlNDNhJnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M19Mbmk=",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Priceline",
+              "provider": "Priceline",
+              "specialratetype": null,
+              "perNight": 424,
+              "taxesValue": 80
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": 1,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$380",
+          "taxesAndFeesText": null,
+          "isLowestPrice": true,
+          "canPayInInstallments": false,
+          "strikeThroughText": "$464",
+          "totalStayText": "$437",
+          "isComparisonOffer": false,
+          "provider": "Agoda.com",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Agoda.com",
+          "providerLogoUrl": "img2/branding/hotels/Agoda.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "World Travel Sale",
+              "type": "DEFAULT"
+            }
+          ],
+          "data": {
+            "provider": "Agoda",
+            "contentId": 172601160,
+            "clickToken": "LzW421byiMJ0tEn1UkX3KUU3K0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1A0zq1U0iit1K0zL1UX0tSci13m3v0Hpn9VI1AKk3AX0CEJC91UK0nEJC91UK0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1eE3CVuCxbqiAdHgXTzszsrTHikCAEvnrx2OZbfq83I37Hq8OIVHxdvbhgcdpQGIoqiUx2evEesDpTUxbaqnxdxMlWywp5C7qnqIwNxEGfvqnIpxEoOzsxElzzWqI5akzsiIzzqizCkrwcqI3UOaRKyehzsqiCr3IQcpxbJN9tzzdIZqQ3t7x2RucHx2GCoE22iuWHsTKaXxdq8HbIKyxXxGszsoMSfuM93xbbvx2VWHlxbigKsAqnxEsbx2qQ5sxMmrOxbJx5HAkqiem7biZTqisUnpA5zCxMkxGAaqIzsxdxXETHZZhRugxdulndKvyqIzsxErtNRU7Ds3OUxMp9cinGUWOptnZ9DJmMQytSuxX02ESnVhGiuC1mvK02a17wqn0GJn1bqiblRb7Rzs0aHc1Dzszsr0aHcMVcIJ1K0EqQ1w0EJIV1mkAYvvKK0IJxEVteJIV1o3YAUKK0TVVteJIV1K0TVVt1o3YAUKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQ33VTKdmKVdod3d3dATndXdHAXAVAnvdv0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UvJkkHMAMdVAAXVAAHUU3TXdUnAKMVAAV0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91vnvMMUMoTvomdnnKAoAVXokXnA3kAodd0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "YmRDXy9Db21tZXJjZT9wPUFnb2RhJnNyYz0xNzI2MDExNjAmZ2VvPTE0MTM0OTgzJmZyb209SG90ZWxEYXRlU2VhcmNoX0hvdGVsX1JldmlldyZzbG90PTkmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTYzNjgmYnVja2V0PTkwNzY5MiZucmFuaz0xMCZjcmFuaz0xMCZjbHQ9RCZ0dHlwZT1EZXNrdG9wTWV0YSZ0bT0zMzg3MzI5ODgmbWFuYWdlZD1mYWxzZSZjYXBwZWQ9ZmFsc2UmZ29zb3g9UnI2bmV3bktWOTRieTJmRUVUZmJvN245cjhjVEpqTkFDWTZ0NkJiWWp0ZWJXOEFTeWw0dV9odDVWMUpSOHJSdk11ZjFLbUZXREktZ1B1SG5CRlhQT3hoQzhGdHV4NWpFeElHLVhIbTdFb3RHVno3VFBsWDYxam1MMGdSU0VWblQ2dF9sdUthT2tzRzR0TnE2c0JKTHdsYkpobjVycHBvdy1idmYwbTJXWWJBdDBnUVV2RTVkaUN3ZGs2S0E4SmUtYklLb3kwdjlGeHZBSnFIdkQzVGpLYVpiOTdWUjNCQW9OZlZ2MWN1OUh6RDdVOW1YRVdRcmZiTk5TTHd5V3dJYzQwOGdYRXhUc09MMUJNdjZqMUR1a2xvY2gxLWp1c2NOa01hM2RfZ3Npd1EmcHJpY2VTaG93bj0zODAmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPU1FRVQmbWJsZGVsdGE9MCZycT1QJnJhdGU9Mzc5Ljg4MDAmdGF4ZXNSYXRlPTU2LjkxMDAmZmVlc1JhdGU9MCZmZWVzPTU2LjkxMDAmY3VyPVVTRCZhZHVsdHM9MiZjaGlsZF9ybV9hZ2VzPSZpbkRheT0yNyZvdXREYXk9MjgmcmRleD1SREVYXzY2ZWYwNDMwZTQ1NDY0NjQ5ZmM0MjRiOTI5ZTljODQ4JnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xOGE3N2JkOWQ0ZTk5MmU5OWIxMTZmMjQxYzkwZGU5OWUmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPThjOGRkMWQ1Zjg1MzRjYzA5NTllMjU3MmM5Njc5NTQ0JnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M19tZHE=",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Agoda.com",
+              "provider": "Agoda",
+              "specialratetype": null,
+              "perNight": 379,
+              "taxesValue": 56
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": 1,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": "$398",
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": "$474",
+          "isComparisonOffer": false,
+          "provider": "Trip.com",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Trip.com",
+          "providerLogoUrl": "img2/branding/hotels/trip_logo_tripadvisor.png",
+          "status": "AVAILABLE",
+          "merchandiseMessages": [
+            {
+              "message": "Fully refundable before Sat, Sep 27",
+              "type": "FREE_CANCELLATION"
+            },
+            {
+              "message": "Earn Trip Coins after your stay",
+              "type": "DEFAULT"
+            }
+          ],
+          "data": {
+            "provider": "CtripTA",
+            "contentId": 137836793,
+            "clickToken": "LzW421fIES2rb0tEn1Umkvm3kAm0zH1UdUmdAvm0ze1qWxMJIVxPQqWQeVsSVu0qK1UK0zq1U0iit1K0zL1UX0tSci1k3kK0Hpn9VI1UKXKX3U0CEJC91UU0nEJC91UU0ncI1xM0IIg2V1xMVt9Ii2DVIJ0Ia1mmvkmXAvv0aJCJyVM1TJctV0nJ22VM1TJctV0yitixE1aSyoZCdTAqQxd7vqnavc7qIdcnqi5fxMhZGuxMXcvqIQdTuIgEZkZgZmxMxbRXoUrODDJxEmAooUzzRfJyXiNrqnyXxd5u2RUJd5w7HwVqQVnxdbqIOxXkxGqQyxMqn3Udq8xdUHixd3AC5x5qnQVpR9shxd2UlDvvQxGUAHxMqnUvMcZKgfsDeV29I3qQEtxbcRbkqnx233J9x27257xd3cpfEq8aVzzuizCOvbDknlU2TEqIqnR9QqnylaZcgxGggqIqIhhexboDvH7ZE79CkG5IfhTOylzshxGxdqQx2opzsyEtlgqi02ESnVhGiuC1mAv02a17wqn0GJn1bqiblRb7Rzs0aHc1RNhzs0aHcMVcIJ1UvKK0EqQ1w0EJIV1mAvYmUKK0IJxEVteJIV1koY3kKK0TVVteJIV1K0TVVt1koY3kKK0npE1xGhxM0JMpcIt1X0nGScMQEaQJyVt10SCxMJg1Xk0ipIxMJg1Xv0EMVxE1exMzsqIQoKomAUXJJdonKKKoTVdM3XUnVKdvKVnV0Eiiat1U0SCDiCIG1A0SCq8VJE1XKXo0ipIDiCIG1A0ipIq8VJE1XKXo0JpSM1dUHUMMMTWkAUHWdVJTWvAXmWkVoTvVK3oM330MVTQM1TJctV0HcM1RQUxhxMQXxhzzQXxhxdQ3xhxGQKxhfQXoKAXkxhrQUm0HG1IEpV0nt1UkMAVM3dnm3oTTXAvHnAmKmKnodUnVKKv0S91dXd3HUAdKAkkdomvJMUmKAMTAMVKXXVk0Ji91JTMTAddHnTnndTXAAXAKKkV3onTVXVMH0I215eQxMSEVnIzW02JyVRinlM1UdUmdAvm",
+            "commerceUrl": "bldDXy9Db21tZXJjZT9wPUN0cmlwVEEmc3JjPTEzNzgzNjc5MyZnZW89MTQxMzQ5ODMmZnJvbT1Ib3RlbERhdGVTZWFyY2hfSG90ZWxfUmV2aWV3JnNsb3Q9MTAmbWF0Y2hJRD0xJm9vcz0wJmNudD0xMiZzaWxvPTc2NzAmYnVja2V0PTEwMjAyNjEmbnJhbms9MTEmY3Jhbms9MTEmY2x0PUQmdHR5cGU9RGVza3RvcE1ldGEmdG09MzM4NzMyOTg4Jm1hbmFnZWQ9ZmFsc2UmY2FwcGVkPWZhbHNlJmdvc294PW1pZzVObjRmOXFXQjhGbThsQlg0bGNWSENEU05od0QybDhYXzRmd3R5ck43TnlOM0RLTDI1MVRqTU1heDM5NTUxR0xDYWcyb09URmcyV0h3cEwxYTRIUEJiUGVxZWNXQVhqUTdVcWdERjYxNFlXMWJvVzY5bkhaRl9ldUxrdlNXcDFJTTg4X1UxOWJERjE4ZGxOMHlDdk1SZXBrdDZxcnNLbExBN0ZKNjZha0pCcEhCVzZsdUNyWW1lR3dvemo4QU03Y0kxcGZyWEZMa19GZ0ltTmx5VXl5WFhTU1JLNU04YkJOckJrbjdoSHRDU2ZqZ0lFU1VXcUo1dUVncnNJeVYmcHJpY2VTaG93bj0zOTgmcG09QlBGJmhhYz1BVkFJTEFCTEUmbWJsPUxPU0UmbWJsZGVsdGE9MTgwMCZycT1QJnJhdGU9Mzk4LjMxMDAmdGF4ZXNSYXRlPTc1LjY3MDAmZmVlc1JhdGU9MCZmZWVzPTc1LjY3MDAmY3VyPVVTRCZhZHVsdHM9MiZjaGlsZF9ybV9hZ2VzPSZpbkRheT0yNyZvdXREYXk9MjgmcmRleD1SREVYXzUwNTM5MTJhYTQ1YzAwMDVmZTRkNjIxY2UwNDgwZWNlJnJvb21zPTEmaW5Nb250aD05JmluWWVhcj0yMDI1Jm91dE1vbnRoPTkmb3V0WWVhcj0yMDI1JmF1aWQ9NDFiMWRkZGYtNzkxYi00ZWFmLTg5MjMtN2U1ZjhlMDY1ZDY2JmRlZl9kPWZhbHNlJmJsZD1MXzEsRF8yLEdfMixXXzYsVV8wLENfMjUwOTI3LFRfMTMmYmg9dHJ1ZSZjcz0xN2Q5ZWQ2NGMzNjVmZjI5OGJjOTMwMzBjNTQxY2UwMDgmaWs9NDI0NmIxOTQwOTc3NDUzOGFkMTMwOWRmOWRlMDIyZTcmYW9rPWFmZGY5NDRiY2ZjYzRmMjk5MjkwMDdlNjVjZmUyZWRiJnRwPUhSX0RpcmVjdENvbW1lcmNlJnBhZ2VMb2NJZD0xNDEzNDk4M19wUVQ=",
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Trip.com",
+              "provider": "CtripTA",
+              "specialratetype": null,
+              "perNight": 398,
+              "taxesValue": 75
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": false,
+            "isMemberRate": false
+          }
+        },
+        {
+          "priceText": null,
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": null,
+          "isComparisonOffer": false,
+          "provider": "Algotels",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Algotels",
+          "providerLogoUrl": "img2/branding/hotels/algotels.png",
+          "status": "UNAVAILABLE",
+          "merchandiseMessages": [],
+          "data": {
+            "provider": "Splitty",
+            "contentId": 209130391,
+            "clickToken": null,
+            "commerceUrl": null,
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Algotels",
+              "provider": "Splitty",
+              "specialratetype": null,
+              "perNight": null,
+              "taxesValue": null
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": null,
+            "isMemberRate": null
+          }
+        },
+        {
+          "priceText": null,
+          "taxesAndFeesText": null,
+          "isLowestPrice": false,
+          "canPayInInstallments": false,
+          "strikeThroughText": null,
+          "totalStayText": null,
+          "isComparisonOffer": false,
+          "provider": "Destinia.com",
+          "isSPSingleOffer": false,
+          "providerDisplayName": "Destinia.com",
+          "providerLogoUrl": "img2/branding/hotels/Logo_Destinia_AT.GIF.png",
+          "status": "UNAVAILABLE",
+          "merchandiseMessages": [],
+          "data": {
+            "provider": "Destinia",
+            "contentId": 196298776,
+            "clickToken": null,
+            "commerceUrl": null,
+            "dataAtts": {
+              "isBookable": null,
+              "locationId": 14134983,
+              "vendorName": "Destinia.com",
+              "provider": "Destinia",
+              "specialratetype": null,
+              "perNight": null,
+              "taxesValue": null
+            },
+            "isSupplierDirect": false,
+            "isIbOffer": false,
+            "roomsRemaining": null,
+            "isMobileRate": null,
+            "isMemberRate": null
+          }
+        }
+      ],
+      "noAvailabilityLink": null,
+      "lowestPrice": "$382",
+      "urgencyAlert": {
+        "label": null,
+        "type": null
+      },
+      "sponsoredListingData": null,
+      "searchParameters": {
+        "travelInfo": {
+          "checkInDate": "2025-09-27",
+          "checkOutDate": "2025-09-28",
+          "usedDefaultDates": false,
+          "rooms": 1,
+          "adults": 2,
+          "childAgesPerRoom": []
+        }
+      }
+    },
+    "locations": [
+      {
+        "locationId": 14134983,
+        "name": "Hotel Birks Montreal",
+        "latitude": 45.5034,
+        "longitude": -73.568756,
+        "url": "/Hotel_Review-g155032-d14134983-Reviews-Hotel_Birks_Montreal-Montreal_Quebec.html",
+        "thumbnail": {
+          "caption": "",
+          "photoSizeDynamic": {
+            "maxHeight": 1229,
+            "maxWidth": 1626,
+            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/40/03/f0/hotel-birks-montreal.jpg?w={width}&h={height}&s=1"
+          }
+        }
+      }
+    ],
+    "reviewSummaryInfo": [
+      {
+        "responseData": {
+          "rating": 4.5,
+          "count": 522
+        }
+      }
+    ]
+  },
+  "hotel_id": 14134983,
+  "location_id": 14134983,
+  "travel_params": {
+    "check_in_date": "2025-09-27",
+    "check_out_date": "2025-09-28",
+    "adults": 2,
+    "rooms": 1
+  }
+}
