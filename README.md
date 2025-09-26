@@ -2,7 +2,7 @@
 
 This project provides multiple approaches to scrape hotel prices from TripAdvisor, including both API-based and browser automation methods.
 
-## 🚨 Important Note
+##  Important Note
 
 The original API-based approach (`tripadvisor_scraper.py`) may return 400 Bad Request errors due to TripAdvisor's anti-bot measures. **We recommend using the browser automation approach** (`tripadvisor_selenium_auto.py`) which is more reliable.
 
